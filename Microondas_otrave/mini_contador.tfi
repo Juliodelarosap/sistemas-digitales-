@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+mini_contador instance_name (
+    .fin(fin), 
+    .clock_in(clock_in), 
+    .out(out)
+    );
+
+

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/Modulo_principal.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/Modulo_principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Modulo_principal.ngc" Modulo_principal.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Modulo_principal.ngc" Modulo_principal.ngd  
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/Modulo_principal.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/Modulo_principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Modulo_principal.ngc" Modulo_principal.ngd  

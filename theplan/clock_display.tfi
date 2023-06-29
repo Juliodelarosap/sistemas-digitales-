@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+clock_display instance_name (
+    .clock(clock), 
+    .clkout_1(clkout_1)
+    );
+
+

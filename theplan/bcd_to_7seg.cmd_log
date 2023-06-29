@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj theplan -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/theplan/bcd_to_7seg.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/theplan//bcd.v" -module bcd_to_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,627 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: modulo_principal.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "modulo_principal.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "modulo_principal"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-csg324
+
+---- Source Options
+Top Module Name                    : modulo_principal
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\suma_0.v" into library work
+Parsing module <suma_0>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\resta_0.v" into library work
+Parsing module <resta_0>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\sumador_5bits.v" into library work
+Parsing module <sumador_5bits>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\restador_5bits.v" into library work
+Parsing module <restador_5bits>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\mux_plexor.v" into library work
+Parsing module <mux_plexor>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\multiplicar_0.v" into library work
+Parsing module <multiplicar_0>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\display_7s.v" into library work
+Parsing module <display_7s>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\display.v" into library work
+Parsing module <display>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\concatenacion.v" into library work
+Parsing module <concatenacion>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\comparador.v" into library work
+Parsing module <comparador>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\clock_de_500hz.v" into library work
+Parsing module <clock_de_500hz>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\modulo_principal.v" into library work
+Parsing module <modulo_principal>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <modulo_principal>.
+
+Elaborating module <sumador_5bits>.
+
+Elaborating module <suma_0>.
+
+Elaborating module <multiplicar_0>.
+
+Elaborating module <concatenacion>.
+
+Elaborating module <restador_5bits>.
+
+Elaborating module <resta_0>.
+
+Elaborating module <comparador>.
+
+Elaborating module <mux_plexor>.
+
+Elaborating module <clock_de_500hz>.
+
+Elaborating module <display>.
+
+Elaborating module <display_7s>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <modulo_principal>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\modulo_principal.v".
+    Summary:
+	no macro.
+Unit <modulo_principal> synthesized.
+
+Synthesizing Unit <sumador_5bits>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\sumador_5bits.v".
+    Summary:
+	no macro.
+Unit <sumador_5bits> synthesized.
+
+Synthesizing Unit <suma_0>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\suma_0.v".
+    Summary:
+Unit <suma_0> synthesized.
+
+Synthesizing Unit <multiplicar_0>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\multiplicar_0.v".
+    Found 5x5-bit multiplier for signal <out> created at line 25.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <multiplicar_0> synthesized.
+
+Synthesizing Unit <concatenacion>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\concatenacion.v".
+    Summary:
+	no macro.
+Unit <concatenacion> synthesized.
+
+Synthesizing Unit <restador_5bits>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\restador_5bits.v".
+    Summary:
+	no macro.
+Unit <restador_5bits> synthesized.
+
+Synthesizing Unit <resta_0>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\resta_0.v".
+    Summary:
+Unit <resta_0> synthesized.
+
+Synthesizing Unit <comparador>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\comparador.v".
+    Found 5-bit comparator greater for signal <b[4]_a[4]_LessThan_1_o> created at line 26
+    Found 5-bit comparator greater for signal <a[4]_b[4]_LessThan_2_o> created at line 28
+    Summary:
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <comparador> synthesized.
+
+Synthesizing Unit <mux_plexor>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\mux_plexor.v".
+    Found 12-bit 8-to-1 multiplexer for signal <out> created at line 26.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_plexor> synthesized.
+
+Synthesizing Unit <clock_de_500hz>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\clock_de_500hz.v".
+        DIVISOR = 28'b0000000000110000110101000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_11_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_11_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <clock_de_500hz> synthesized.
+
+Synthesizing Unit <display>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\display.v".
+    Found 3-bit register for signal <x>.
+    Found 3-bit register for signal <selec>.
+    Found 7-bit register for signal <seg>.
+    Found 3-bit adder for signal <selec[2]_GND_12_o_add_10_OUT> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  13 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <display> synthesized.
+
+Synthesizing Unit <display_7s>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\calculadora\display_7s.v".
+    Found 8x7-bit Read Only RAM for signal <segments>
+    Summary:
+	inferred   1 RAM(s).
+Unit <display_7s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 8x7-bit single-port Read Only RAM                     : 4
+# Multipliers                                          : 1
+ 5x5-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 2
+ 28-bit adder                                          : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 5
+ 1-bit register                                        : 1
+ 28-bit register                                       : 1
+ 3-bit register                                        : 2
+ 7-bit register                                        : 1
+# Comparators                                          : 4
+ 28-bit comparator greater                             : 2
+ 5-bit comparator greater                              : 2
+# Multiplexers                                         : 5
+ 12-bit 8-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 7-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 40
+ 1-bit xor2                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <clock_de_500hz>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <clock_de_500hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display>.
+The following registers are absorbed into counter <selec>: 1 register on signal <selec>.
+Unit <display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display_7s>.
+INFO:Xst:3231 - The small RAM <Mram_segments> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <data>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <segments>      |          |
+    -----------------------------------------------------------------------
+Unit <display_7s> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 8x7-bit single-port distributed Read Only RAM         : 4
+# Multipliers                                          : 1
+ 5x5-bit multiplier                                    : 1
+# Counters                                             : 2
+ 28-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+# Comparators                                          : 4
+ 28-bit comparator greater                             : 2
+ 5-bit comparator greater                              : 2
+# Multiplexers                                         : 4
+ 12-bit 8-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 40
+ 1-bit xor2                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <modulo_principal> ...
+
+Optimizing unit <display> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block modulo_principal, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : modulo_principal.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 281
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 27
+#      LUT2                        : 43
+#      LUT3                        : 13
+#      LUT4                        : 18
+#      LUT5                        : 42
+#      LUT6                        : 32
+#      MUXCY                       : 54
+#      MUXF7                       : 3
+#      VCC                         : 1
+#      XORCY                       : 44
+# FlipFlops/Latches                : 42
+#      FD                          : 32
+#      FDE                         : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 42
+#      IBUF                        : 13
+#      OBUF                        : 29
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              42  out of  11440     0%  
+ Number of Slice LUTs:                  178  out of   5720     3%  
+    Number used as Logic:               178  out of   5720     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    179
+   Number with an unused Flip Flop:     137  out of    179    76%  
+   Number with an unused LUT:             1  out of    179     0%  
+   Number of fully used LUT-FF pairs:    41  out of    179    22%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          43
+ Number of bonded IOBs:                  43  out of    200    21%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_100MHz                         | BUFGP                  | 29    |
+clock_freq/clock_out               | NONE(pantalla/selec_2) | 13    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.351ns (Maximum Frequency: 229.824MHz)
+   Minimum input arrival time before clock: 10.308ns
+   Maximum output required time after clock: 4.118ns
+   Maximum combinational path delay: 12.436ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_100MHz'
+  Clock period: 4.351ns (frequency: 229.824MHz)
+  Total number of paths / destination ports: 1792 / 29
+-------------------------------------------------------------------------
+Delay:               4.351ns (Levels of Logic = 7)
+  Source:            clock_freq/counter_6 (FF)
+  Destination:       clock_freq/counter_0 (FF)
+  Source Clock:      CLK_100MHz rising
+  Destination Clock: CLK_100MHz rising
+
+  Data Path: clock_freq/counter_6 to clock_freq/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.525   1.271  clock_freq/counter_6 (clock_freq/counter_6)
+     LUT5:I0->O            1   0.254   0.000  clock_freq/Mcompar_n0001_lut<1> (clock_freq/Mcompar_n0001_lut<1>)
+     MUXCY:S->O            1   0.215   0.000  clock_freq/Mcompar_n0001_cy<1> (clock_freq/Mcompar_n0001_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  clock_freq/Mcompar_n0001_cy<2> (clock_freq/Mcompar_n0001_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  clock_freq/Mcompar_n0001_cy<3> (clock_freq/Mcompar_n0001_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  clock_freq/Mcompar_n0001_cy<4> (clock_freq/Mcompar_n0001_cy<4>)
+     MUXCY:CI->O          28   0.235   1.453  clock_freq/Mcompar_n0001_cy<5> (clock_freq/Mcompar_n0001_cy<5>)
+     LUT2:I1->O            1   0.254   0.000  clock_freq/counter_0_rstpot (clock_freq/counter_0_rstpot)
+     FD:D                      0.074          clock_freq/counter_0
+    ----------------------------------------
+    Total                      4.351ns (1.627ns logic, 2.724ns route)
+                                       (37.4% logic, 62.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_freq/clock_out'
+  Clock period: 3.371ns (frequency: 296.648MHz)
+  Total number of paths / destination ports: 56 / 23
+-------------------------------------------------------------------------
+Delay:               3.371ns (Levels of Logic = 2)
+  Source:            pantalla/selec_0 (FF)
+  Destination:       pantalla/seg_0 (FF)
+  Source Clock:      clock_freq/clock_out rising
+  Destination Clock: clock_freq/clock_out rising
+
+  Data Path: pantalla/selec_0 to pantalla/seg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.525   1.582  pantalla/selec_0 (pantalla/selec_0)
+     LUT6:I0->O            1   0.254   0.682  pantalla/Mmux__n002812 (pantalla/Mmux__n002811)
+     LUT5:I4->O            1   0.254   0.000  pantalla/Mmux__n002813 (pantalla/_n0028<0>)
+     FDE:D                     0.074          pantalla/seg_0
+    ----------------------------------------
+    Total                      3.371ns (1.107ns logic, 2.264ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_freq/clock_out'
+  Total number of paths / destination ports: 11227 / 7
+-------------------------------------------------------------------------
+Offset:              10.308ns (Levels of Logic = 11)
+  Source:            b<1> (PAD)
+  Destination:       pantalla/seg_2 (FF)
+  Destination Clock: clock_freq/clock_out rising
+
+  Data Path: b<1> to pantalla/seg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.810  b_1_IBUF (multi/Mmult_out_a<0>_x_b<1>_mand)
+     LUT6:I1->O            3   0.254   0.994  multi/Mmult_out_Madd1_cy<4>11 (multi/Mmult_out_Madd1_cy<4>)
+     LUT5:I2->O            1   0.235   0.682  multi/Mmult_out_Madd1_cy<5>11 (multi/Mmult_out_Madd1_cy<5>)
+     LUT5:I4->O            1   0.254   0.000  multi/Mmult_out_Madd2_lut<6> (multi/Mmult_out_Madd2_lut<6>)
+     XORCY:LI->O           1   0.149   1.137  multi/Mmult_out_Madd2_xor<6> (multi/Mmult_out_Madd_62)
+     LUT6:I0->O            1   0.254   0.000  multi/Mmult_out_Madd3_lut<6> (multi/Mmult_out_Madd3_lut<6>)
+     MUXCY:S->O            1   0.215   0.000  multi/Mmult_out_Madd3_cy<6> (multi/Mmult_out_Madd3_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  multi/Mmult_out_Madd3_cy<7> (multi/Mmult_out_Madd3_cy<7>)
+     XORCY:CI->O           1   0.206   0.790  multi/Mmult_out_Madd3_xor<8> (multip<8>)
+     LUT5:I3->O            8   0.250   1.399  Mux/Mmux_out91 (led_8_OBUF)
+     LUT6:I0->O            1   0.254   0.000  pantalla/Mmux__n002833 (pantalla/_n0028<2>)
+     FDE:D                     0.074          pantalla/seg_2
+    ----------------------------------------
+    Total                     10.308ns (3.496ns logic, 6.812ns route)
+                                       (33.9% logic, 66.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_freq/clock_out'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            pantalla/seg_6 (FF)
+  Destination:       SevenSegment<6> (PAD)
+  Source Clock:      clock_freq/clock_out rising
+
+  Data Path: pantalla/seg_6 to SevenSegment<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.525   0.681  pantalla/seg_6 (pantalla/seg_6)
+     OBUF:I->O                 2.912          SevenSegment_6_OBUF (SevenSegment<6>)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4998 / 14
+-------------------------------------------------------------------------
+Delay:               12.436ns (Levels of Logic = 11)
+  Source:            b<1> (PAD)
+  Destination:       led<8> (PAD)
+
+  Data Path: b<1> to led<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.810  b_1_IBUF (multi/Mmult_out_a<0>_x_b<1>_mand)
+     LUT6:I1->O            3   0.254   0.994  multi/Mmult_out_Madd1_cy<4>11 (multi/Mmult_out_Madd1_cy<4>)
+     LUT5:I2->O            1   0.235   0.682  multi/Mmult_out_Madd1_cy<5>11 (multi/Mmult_out_Madd1_cy<5>)
+     LUT5:I4->O            1   0.254   0.000  multi/Mmult_out_Madd2_lut<6> (multi/Mmult_out_Madd2_lut<6>)
+     XORCY:LI->O           1   0.149   1.137  multi/Mmult_out_Madd2_xor<6> (multi/Mmult_out_Madd_62)
+     LUT6:I0->O            1   0.254   0.000  multi/Mmult_out_Madd3_lut<6> (multi/Mmult_out_Madd3_lut<6>)
+     MUXCY:S->O            1   0.215   0.000  multi/Mmult_out_Madd3_cy<6> (multi/Mmult_out_Madd3_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  multi/Mmult_out_Madd3_cy<7> (multi/Mmult_out_Madd3_cy<7>)
+     XORCY:CI->O           1   0.206   0.790  multi/Mmult_out_Madd3_xor<8> (multip<8>)
+     LUT5:I3->O            8   0.250   0.943  Mux/Mmux_out91 (led_8_OBUF)
+     OBUF:I->O                 2.912          led_8_OBUF (led<8>)
+    ----------------------------------------
+    Total                     12.436ns (6.080ns logic, 6.356ns route)
+                                       (48.9% logic, 51.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK_100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_100MHz     |    4.351|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock_freq/clock_out
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+clock_freq/clock_out|    3.371|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.24 secs
+ 
+--> 
+
+Total memory usage is 4487668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

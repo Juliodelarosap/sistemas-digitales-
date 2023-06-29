@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx9-3csg324
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

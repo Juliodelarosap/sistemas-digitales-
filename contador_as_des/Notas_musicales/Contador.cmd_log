@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Notas_musicales/Contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Notas_musicales/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Contador.ngc" Contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -mt off Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf 
+vhdtdtfi -lang verilog -prj Notas_musicales -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Contador.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales//Contador.v" -module Contador -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

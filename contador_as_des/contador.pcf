@@ -1,0 +1,42 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Mar 20 17:45:37 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "dot" LOCATE = SITE "A5" LEVEL 1;
+COMP "back" LOCATE = SITE "M16" LEVEL 1;
+COMP "d3<0>" LOCATE = SITE "R3" LEVEL 1;
+COMP "d3<1>" LOCATE = SITE "V5" LEVEL 1;
+COMP "d3<2>" LOCATE = SITE "U5" LEVEL 1;
+COMP "d3<3>" LOCATE = SITE "V4" LEVEL 1;
+COMP "d3<4>" LOCATE = SITE "T4" LEVEL 1;
+COMP "d3<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "d3<6>" LOCATE = SITE "U7" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "audio" LOCATE = SITE "A16" LEVEL 1;
+COMP "reset" LOCATE = SITE "M18" LEVEL 1;
+COMP "sele<0>" LOCATE = SITE "F18" LEVEL 1;
+COMP "sele<1>" LOCATE = SITE "F17" LEVEL 1;
+COMP "bar<0>" LOCATE = SITE "T18" LEVEL 1;
+COMP "bar<1>" LOCATE = SITE "T17" LEVEL 1;
+COMP "bar<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "bar<3>" LOCATE = SITE "U17" LEVEL 1;
+COMP "bas<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "bar<4>" LOCATE = SITE "N16" LEVEL 1;
+COMP "bas<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "bar<5>" LOCATE = SITE "N15" LEVEL 1;
+COMP "bas<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "bar<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "bar<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "C6" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "D6" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "A4" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "B4" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "A3" LEVEL 1;
+COMP "pulsador" LOCATE = SITE "L18" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

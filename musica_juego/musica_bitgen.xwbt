@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\musica.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\musica.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx9-3csg324
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

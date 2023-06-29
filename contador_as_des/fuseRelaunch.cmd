@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/contador_isim_beh.exe" -prj "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/contador_beh.prj" "work.contador" "work.glbl" 

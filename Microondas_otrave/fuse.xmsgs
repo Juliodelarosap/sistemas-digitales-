@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contado.v" Line 28: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 28: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 29: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 30: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 31: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 32: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 33: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 34: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 35: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 36: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 37: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 38: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 39: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 40: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 41: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 53: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 54: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 51: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sel</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 84: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">bin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">9</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="error" file="Simulator" num="793" delta="unknown" >Unable to elaborate instantiated module <arg fmt="%s" index="1">doo</arg>
+</msg>
+
+</messages>
+

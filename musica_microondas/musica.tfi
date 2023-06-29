@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+musica instance_name (
+    .clock(clock), 
+    .activador(activador), 
+    .atr(atr), 
+    .audio(audio), 
+    .musica(musica)
+    );
+
+

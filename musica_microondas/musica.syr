@@ -1,0 +1,1130 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: musica.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "musica.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "musica"
+Output Format                      : NGC
+Target Device                      : xa6slx9-3-csg324
+
+---- Source Options
+Top Module Name                    : musica
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\tiempo.v" into library work
+Parsing module <Tiempo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\sol.v" into library work
+Parsing module <sol>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\silencio.v" into library work
+Parsing module <silencio>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\si.v" into library work
+Parsing module <si>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re_sos_grande.v" into library work
+Parsing module <re_sos_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re_sos.v" into library work
+Parsing module <re_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re.v" into library work
+Parsing module <re>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mi_grande.v" into library work
+Parsing module <mi_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mi.v" into library work
+Parsing module <mi>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\la_sos.v" into library work
+Parsing module <la_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\la.v" into library work
+Parsing module <la>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\fa_sos.v" into library work
+Parsing module <fa_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\do_sos.v" into library work
+Parsing module <do_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\do_grande.v" into library work
+Parsing module <do_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\doo.v" into library work
+Parsing module <doo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" into library work
+Parsing module <Contado>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" into library work
+Parsing module <mux>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" into library work
+Parsing module <musica>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <musica>.
+
+Elaborating module <mux>.
+
+Elaborating module <Contado>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 28: Module instantiation should have an instance name
+
+Elaborating module <Tiempo>.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 41: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 49: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 30: Module instantiation should have an instance name
+
+Elaborating module <doo>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 31: Module instantiation should have an instance name
+
+Elaborating module <do_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 32: Module instantiation should have an instance name
+
+Elaborating module <do_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 33: Module instantiation should have an instance name
+
+Elaborating module <fa_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 34: Module instantiation should have an instance name
+
+Elaborating module <la>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 35: Module instantiation should have an instance name
+
+Elaborating module <la_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 36: Module instantiation should have an instance name
+
+Elaborating module <mi>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 37: Module instantiation should have an instance name
+
+Elaborating module <mi_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 38: Module instantiation should have an instance name
+
+Elaborating module <re>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 39: Module instantiation should have an instance name
+
+Elaborating module <re_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 40: Module instantiation should have an instance name
+
+Elaborating module <re_sos_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 41: Module instantiation should have an instance name
+
+Elaborating module <si>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 42: Module instantiation should have an instance name
+
+Elaborating module <sol>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 43: Module instantiation should have an instance name
+
+Elaborating module <silencio>.
+WARNING:HDLCompiler:189 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" Line 25: Size mismatch in connection of port <sel>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" Line 25: Assignment to sel ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <musica>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v".
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" line 25: Output port <sel> of the instance <mux> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" line 25: Output port <h> of the instance <mux> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <registro>.
+    Found 1-bit register for signal <musica>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <musica> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <nota>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+Unit <mux> synthesized.
+
+Synthesizing Unit <Contado>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v".
+    Found 8-bit register for signal <out>.
+    Found 8-bit adder for signal <out[7]_GND_3_o_add_3_OUT> created at line 41.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_7_OUT<7:0>> created at line 49.
+    Found 8-bit comparator lessequal for signal <out[7]_GND_3_o_LessThan_3_o> created at line 39
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Contado> synthesized.
+
+Synthesizing Unit <Tiempo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\tiempo.v".
+        DIVISOR = 28'b0000010011000100101101000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_4_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_4_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Tiempo> synthesized.
+
+Synthesizing Unit <doo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\doo.v".
+        DIVISOR = 28'b0000000001011101001011101111
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_5_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_5_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <doo> synthesized.
+
+Synthesizing Unit <do_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\do_grande.v".
+        DIVISOR = 28'b0000000000101110101011100101
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_6_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_6_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do_grande> synthesized.
+
+Synthesizing Unit <do_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\do_sos.v".
+        DIVISOR = 28'b0000000001011000001000110011
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_7_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_7_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do_sos> synthesized.
+
+Synthesizing Unit <fa_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\fa_sos.v".
+        DIVISOR = 28'b0000000001000001111110111110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_8_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_8_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <fa_sos> synthesized.
+
+Synthesizing Unit <la>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\la.v".
+        DIVISOR = 28'b0000000000110111011111001000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_9_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_9_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la> synthesized.
+
+Synthesizing Unit <la_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\la_sos.v".
+        DIVISOR = 28'b0000000000110100011001000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_10_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_10_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la_sos> synthesized.
+
+Synthesizing Unit <mi>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mi.v".
+        DIVISOR = 28'b0000000001001001111110110110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_11_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_11_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <mi> synthesized.
+
+Synthesizing Unit <mi_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mi_grande.v".
+        DIVISOR = 28'b0000000000100101000011000001
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_12_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_12_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <mi_grande> synthesized.
+
+Synthesizing Unit <re>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re.v".
+        DIVISOR = 28'b0000000001010011000010101000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_13_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_13_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re> synthesized.
+
+Synthesizing Unit <re_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re_sos.v".
+        DIVISOR = 28'b0000000001001110100000000111
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_14_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_14_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re_sos> synthesized.
+
+Synthesizing Unit <re_sos_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\re_sos_grande.v".
+        DIVISOR = 28'b0000000000100111010000000011
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_15_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_15_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re_sos_grande> synthesized.
+
+Synthesizing Unit <si>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\si.v".
+        DIVISOR = 28'b0000000000110001011010111101
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_16_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_16_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <si> synthesized.
+
+Synthesizing Unit <sol>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\sol.v".
+        DIVISOR = 28'b0000000000111110010001111110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_17_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_17_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <sol> synthesized.
+
+Synthesizing Unit <silencio>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\silencio.v".
+        DIVISOR = 28'b0000000000000000000000000000
+    WARNING:Xst:2404 -  FFs/Latches <clock_out<0:0>> (without init value) have a constant value of 0 in block <silencio>.
+    Summary:
+	no macro.
+Unit <silencio> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 15
+ 28-bit adder                                          : 14
+ 8-bit addsub                                          : 1
+# Registers                                            : 31
+ 1-bit register                                        : 16
+ 28-bit register                                       : 14
+ 8-bit register                                        : 1
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 29
+ 28-bit comparator greater                             : 28
+ 8-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <_i000001> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000002> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000008> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000009> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000010> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000011> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000012> is unconnected in block <mux>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <_i000014> is unconnected in block <mux>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <Contado>.
+The following registers are absorbed into counter <out>: 1 register on signal <out>.
+Unit <Contado> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Tiempo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <Tiempo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <doo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <doo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <fa_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <fa_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mi>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mi> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mi_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mi_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re_sos_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re_sos_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <si>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <si> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sol>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <sol> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 15
+ 28-bit up counter                                     : 14
+ 8-bit updown counter                                  : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 29
+ 28-bit comparator greater                             : 28
+ 8-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <musica> ...
+
+Optimizing unit <mux> ...
+WARNING:Xst:2677 - Node <mux/_i000012/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_27> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_26> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_25> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_24> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_23> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_22> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_21> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_20> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_19> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_18> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_17> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_16> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_15> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_14> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_13> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_12> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_11> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_10> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_9> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_8> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_7> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_6> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_5> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_4> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_3> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_2> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_1> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/counter_0> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000012/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000011/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000010/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000009/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000008/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000002/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:2677 - Node <mux/_i000001/clock_out> of sequential type is unconnected in block <musica>.
+WARNING:Xst:1293 - FF/Latch <mux/_i000005/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_18> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000004/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000003/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/contador/_i000001/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/contador/_i000001/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/contador/_i000001/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/contador/_i000001/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/contador/_i000001/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000013/counter_18> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000007/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_25> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_24> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_23> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_22> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_21> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_20> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_19> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000006/counter_18> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_27> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mux/_i000005/counter_26> has a constant value of 0 in block <musica>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block musica, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 151
+ Flip-Flops                                            : 151
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : musica.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 760
+#      GND                         : 1
+#      INV                         : 13
+#      LUT1                        : 127
+#      LUT2                        : 148
+#      LUT3                        : 20
+#      LUT4                        : 20
+#      LUT5                        : 61
+#      LUT6                        : 7
+#      MUXCY                       : 220
+#      VCC                         : 1
+#      XORCY                       : 142
+# FlipFlops/Latches                : 152
+#      FD                          : 143
+#      FDRE                        : 8
+#      LD                          : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 2
+#      OBUF                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx9csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             151  out of  11440     1%  
+ Number of Slice LUTs:                  396  out of   5720     6%  
+    Number used as Logic:               396  out of   5720     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    401
+   Number with an unused Flip Flop:     250  out of    401    62%  
+   Number with an unused LUT:             5  out of    401     1%  
+   Number of fully used LUT-FF pairs:   146  out of    401    36%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    200     2%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)   | Load  |
+-----------------------------------+-------------------------+-------+
+clock                              | BUFGP                   | 143   |
+mux/contador/_i000001/clock_out    | NONE(mux/contador/out_7)| 8     |
+mux/_n0035(mux/out:O)              | NONE(*)(mux/nota)       | 1     |
+-----------------------------------+-------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.598ns (Maximum Frequency: 277.955MHz)
+   Minimum input arrival time before clock: 3.238ns
+   Maximum output required time after clock: 3.950ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mux/contador/_i000001/clock_out'
+  Clock period: 3.586ns (frequency: 278.866MHz)
+  Total number of paths / destination ports: 136 / 16
+-------------------------------------------------------------------------
+Delay:               3.586ns (Levels of Logic = 2)
+  Source:            mux/contador/out_3 (FF)
+  Destination:       mux/contador/out_7 (FF)
+  Source Clock:      mux/contador/_i000001/clock_out rising
+  Destination Clock: mux/contador/_i000001/clock_out rising
+
+  Data Path: mux/contador/out_3 to mux/contador/out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.447   1.028  mux/contador/out_3 (mux/contador/out_3)
+     LUT6:I1->O            1   0.203   0.580  mux/contador/_n0028_inv1 (mux/contador/_n0028_inv1)
+     LUT6:I5->O            8   0.205   0.802  mux/contador/_n0028_inv2 (mux/contador/_n0028_inv)
+     FDRE:CE                   0.322          mux/contador/out_0
+    ----------------------------------------
+    Total                      3.586ns (1.177ns logic, 2.409ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 3.598ns (frequency: 277.955MHz)
+  Total number of paths / destination ports: 5994 / 142
+-------------------------------------------------------------------------
+Delay:               3.598ns (Levels of Logic = 6)
+  Source:            mux/_i000013/counter_12 (FF)
+  Destination:       mux/_i000013/clock_out (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: mux/_i000013/counter_12 to mux/_i000013/clock_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   1.059  mux/_i000013/counter_12 (mux/_i000013/counter_12)
+     LUT5:I0->O            1   0.203   0.000  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_lut<2> (mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<2> (mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<3> (mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<4> (mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<4>)
+     MUXCY:CI->O           1   0.213   0.579  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<5> (mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<5>)
+     INV:I->O              1   0.206   0.579  mux/_i000013/Mcompar_counter[27]_GND_17_o_LessThan_5_o_cy<5>_inv1_INV_0 (mux/_i000013/counter[27]_GND_17_o_LessThan_5_o)
+     FD:D                      0.102          mux/_i000013/clock_out
+    ----------------------------------------
+    Total                      3.598ns (1.381ns logic, 2.217ns route)
+                                       (38.4% logic, 61.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.374ns (Levels of Logic = 2)
+  Source:            atr (PAD)
+  Destination:       musica (FF)
+  Destination Clock: clock rising
+
+  Data Path: atr to musica
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.845  atr_IBUF (atr_IBUF)
+     LUT3:I0->O            1   0.205   0.000  musica_rstpot (musica_rstpot)
+     FD:D                      0.102          musica
+    ----------------------------------------
+    Total                      2.374ns (1.529ns logic, 0.845ns route)
+                                       (64.4% logic, 35.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'mux/contador/_i000001/clock_out'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.238ns (Levels of Logic = 2)
+  Source:            activador (PAD)
+  Destination:       mux/contador/out_7 (FF)
+  Destination Clock: mux/contador/_i000001/clock_out rising
+
+  Data Path: activador to mux/contador/out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  activador_IBUF (activador_IBUF)
+     INV:I->O              8   0.206   0.802  mux/activado_inv1_INV_0 (mux/activado_inv)
+     FDRE:R                    0.430          mux/contador/out_0
+    ----------------------------------------
+    Total                      3.238ns (1.858ns logic, 1.380ns route)
+                                       (57.4% logic, 42.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mux/_n0035'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            mux/nota (LATCH)
+  Destination:       audio (PAD)
+  Source Clock:      mux/_n0035 falling
+
+  Data Path: mux/nota to audio
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.579  mux/nota (mux/nota)
+     OBUF:I->O                 2.571          audio_OBUF (audio)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.950ns (Levels of Logic = 1)
+  Source:            musica (FF)
+  Destination:       musica (PAD)
+  Source Clock:      clock rising
+
+  Data Path: musica to musica
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.447   0.932  musica (musica_OBUF)
+     OBUF:I->O                 2.571          musica_OBUF (musica)
+    ----------------------------------------
+    Total                      3.950ns (3.018ns logic, 0.932ns route)
+                                       (76.4% logic, 23.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    3.598|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mux/_n0035
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+clock                          |         |         |    4.265|         |
+mux/contador/_i000001/clock_out|         |         |    4.281|         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mux/contador/_i000001/clock_out
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+clock                          |    3.856|         |         |         |
+mux/contador/_i000001/clock_out|    3.586|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.86 secs
+ 
+--> 
+
+Total memory usage is 4487668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  294 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

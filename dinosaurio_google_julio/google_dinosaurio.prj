@@ -1,0 +1,4 @@
+verilog work "tiempo.v"
+verilog work "display7s.v"
+verilog work "clock_500hz.v"
+verilog work "google_dinosaurio.v"

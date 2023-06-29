@@ -1,0 +1,55 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador_isim_beh.exe -prj C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador_beh.prj work.contador work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/tiempo.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/sol.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/silencio.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/si.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/re_sos_grande.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/re_sos.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/re.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mi_grande.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mi.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/la_sos.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/la.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/fa_sos.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/do_sos.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/do_grande.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/doo.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contado.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/prueba_5.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/prueba_4.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/prueba_3.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/prueba_2.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/prueba_1.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/frecuencia.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/dobledable.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/decodificador.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/clock_500hz.v" into library work
+Analyzing Verilog file "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contado.v" Line 28: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 28: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 29: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 30: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 31: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 32: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 33: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 34: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 35: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 36: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 37: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 38: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 39: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 40: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/mux.v" Line 41: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 53: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 54: Module instantiation should have an instance name
+WARNING:HDLCompiler:189 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 51: Size mismatch in connection of port <sel>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.v" Line 84: Size mismatch in connection of port <bin>. Formal port size is 9-bit while actual signal size is 10-bit.
+Completed static elaboration
+ERROR:Simulator:793 - Unable to elaborate instantiated module doo

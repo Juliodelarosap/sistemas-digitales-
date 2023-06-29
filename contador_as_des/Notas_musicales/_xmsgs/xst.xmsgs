@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 27: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Contador.v" Line 27: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Contador.v" Line 37: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Contador.v" Line 29: Net &lt;<arg fmt="%s" index="1">control</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 29: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 30: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 31: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 32: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 33: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 34: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 35: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 36: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 37: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 38: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 39: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 40: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 41: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\mux.v" Line 42: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Pantera_rosa.v" Line 24: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sel</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Pantera_rosa.v" Line 24: Assignment to <arg fmt="%s" index="1">sel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Pantera_rosa.v</arg>&quot; line <arg fmt="%s" index="2">24</arg>: Output port &lt;<arg fmt="%s" index="3">sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\julio\OneDrive\Escritorio\sistemas digitales\Notas_musicales\Pantera_rosa.v</arg>&quot; line <arg fmt="%s" index="2">24</arg>: Output port &lt;<arg fmt="%s" index="3">h</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nota</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">control</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">clock_out</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">silencio</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000002</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sel[7]_GND_19_o_Mux_17_o</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Pantera_rosa</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx9-3csg324
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "implementacion1.ngc" implementacion1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o implementacion1_map.ncd implementacion1.ngd implementacion1.pcf 
+par -w -intstyle ise -ol high -mt off implementacion1_map.ncd implementacion1.ncd implementacion1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml implementacion1.twx implementacion1.ncd -o implementacion1.twr implementacion1.pcf 
+bitgen -intstyle ise -f implementacion1.ut implementacion1.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imple.ucf -p xc6slx9-csg324-2 "implementacion1.ngc" implementacion1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o implementacion1_map.ncd implementacion1.ngd implementacion1.pcf 
+par -w -intstyle ise -ol high -mt off implementacion1_map.ncd implementacion1.ncd implementacion1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml implementacion1.twx implementacion1.ncd -o implementacion1.twr implementacion1.pcf -ucf imple.ucf 
+bitgen -intstyle ise -f implementacion1.ut implementacion1.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imple.ucf -p xc6slx9-csg324-2 "implementacion1.ngc" implementacion1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o implementacion1_map.ncd implementacion1.ngd implementacion1.pcf 
+par -w -intstyle ise -ol high -mt off implementacion1_map.ncd implementacion1.ncd implementacion1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml implementacion1.twx implementacion1.ncd -o implementacion1.twr implementacion1.pcf -ucf imple.ucf 
+bitgen -intstyle ise -f implementacion1.ut implementacion1.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imple.ucf -p xc6slx9-csg324-2 "implementacion1.ngc" implementacion1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o implementacion1_map.ncd implementacion1.ngd implementacion1.pcf 
+par -w -intstyle ise -ol high -mt off implementacion1_map.ncd implementacion1.ncd implementacion1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml implementacion1.twx implementacion1.ncd -o implementacion1.twr implementacion1.pcf -ucf imple.ucf 
+bitgen -intstyle ise -f implementacion1.ut implementacion1.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/implementacion/implementacion1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imple.ucf -p xc6slx9-csg324-2 "implementacion1.ngc" implementacion1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o implementacion1_map.ncd implementacion1.ngd implementacion1.pcf 
+par -w -intstyle ise -ol high -mt off implementacion1_map.ncd implementacion1.ncd implementacion1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml implementacion1.twx implementacion1.ncd -o implementacion1.twr implementacion1.pcf -ucf imple.ucf 
+bitgen -intstyle ise -f implementacion1.ut implementacion1.ncd 

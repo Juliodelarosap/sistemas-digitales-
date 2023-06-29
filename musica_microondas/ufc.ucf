@@ -1,0 +1,37 @@
+#**************************************************************************************************************************************************#
+#                                            UCF for Mimas V2                                                                                      #
+#**************************************************************************************************************************************************#
+
+CONFIG VCCAUX = "3.3" ;
+
+   NET "clock"                  LOC = V10     | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz ;
+	
+
+	 
+###################################################################################################################################################
+#                                                    Audio                                                                                        #
+################################################################################################################################################### 
+    NET "audio"                     LOC = B16     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;  # Audio Left               
+    NET "audio"                     LOC = A16     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;  # Audio Right
+	 
+###################################################################################################################################################
+#                                                 DIP Switches                                                                                    #
+################################################################################################################################################### 
+   #NET "activador"                LOC = C17     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 8
+    #NET "updown"                LOC = C18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 7
+    #NET "activador"                LOC = D17     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 6
+    #NET "DPSwitch[3]"                LOC = D18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 5
+    #NET "DPSwitch[4]"                LOC = E18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 4
+    #NET "DPSwitch[5]"                LOC = E16     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 3
+    #NET "updown"                LOC = F18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 2
+    NET "activador"                LOC = F17     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;  #DP 1
+	
+###################################################################################################################################################
+#                                              Push Buttons Switches                                                                              #
+################################################################################################################################################### 
+    #NET "Switch[5]"                  LOC = M18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW1
+    #NET "Switch[4]"                  LOC = L18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW2
+    NET "atr"                  LOC = M16     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW3
+    #NET "Switch[2]"                  LOC = L17     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW4
+    #NET "Switch[1]"                  LOC = K17     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW5
+    #NET "Switch[0]"                  LOC = K18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW6

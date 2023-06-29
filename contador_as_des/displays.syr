@@ -1,0 +1,1527 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: displays.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "displays.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "displays"
+Output Format                      : NGC
+Target Device                      : xa6slx9-3-csg324
+
+---- Source Options
+Top Module Name                    : displays
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Tiempo.v" into library work
+Parsing module <Tiempo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\sol.v" into library work
+Parsing module <sol>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\silencio.v" into library work
+Parsing module <silencio>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\si.v" into library work
+Parsing module <si>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re_sos_grande.v" into library work
+Parsing module <re_sos_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re_sos.v" into library work
+Parsing module <re_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re.v" into library work
+Parsing module <re>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mi_grande.v" into library work
+Parsing module <mi_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mi.v" into library work
+Parsing module <mi>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\la_sos.v" into library work
+Parsing module <la_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\la.v" into library work
+Parsing module <la>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\fa_sos.v" into library work
+Parsing module <fa_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\do_sos.v" into library work
+Parsing module <do_sos>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\do_grande.v" into library work
+Parsing module <do_grande>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\doo.v" into library work
+Parsing module <doo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Contador.v" into library work
+Parsing module <Contador_notas>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck04.v" into library work
+Parsing module <ck04>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck03.v" into library work
+Parsing module <ck03>.
+WARNING:HDLCompiler:568 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck03.v" Line 24: Constant value is truncated to fit in <28> bits.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck02.v" into library work
+Parsing module <ck02>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck01.v" into library work
+Parsing module <ck01>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" into library work
+Parsing module <mux>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\multi.v" into library work
+Parsing module <multi>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displayfrecuencces.v" into library work
+Parsing module <displayfrecuencces>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\clock_500hz.v" into library work
+Parsing module <clock_500hz>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" into library work
+Parsing module <contador>.
+WARNING:HDLCompiler:751 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 33: Redeclaration of ansi port d0 is not allowed
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" into library work
+Parsing module <displays>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" Line 42: Port d0 is not connected to this instance
+
+Elaborating module <displays>.
+
+Elaborating module <contador>.
+
+Elaborating module <multi>.
+
+Elaborating module <ck01>.
+
+Elaborating module <ck02>.
+
+Elaborating module <ck03>.
+
+Elaborating module <ck04>.
+
+Elaborating module <mux>.
+
+Elaborating module <Contador_notas>.
+
+Elaborating module <Tiempo>.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Contador.v" Line 37: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Contador.v" Line 29: Net <control> does not have a driver.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 29: Module instantiation should have an instance name
+
+Elaborating module <doo>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 30: Module instantiation should have an instance name
+
+Elaborating module <do_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 31: Module instantiation should have an instance name
+
+Elaborating module <do_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 32: Module instantiation should have an instance name
+
+Elaborating module <fa_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 33: Module instantiation should have an instance name
+
+Elaborating module <la>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 34: Module instantiation should have an instance name
+
+Elaborating module <la_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 35: Module instantiation should have an instance name
+
+Elaborating module <mi>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 36: Module instantiation should have an instance name
+
+Elaborating module <mi_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 37: Module instantiation should have an instance name
+
+Elaborating module <re>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 38: Module instantiation should have an instance name
+
+Elaborating module <re_sos>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 39: Module instantiation should have an instance name
+
+Elaborating module <re_sos_grande>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 40: Module instantiation should have an instance name
+
+Elaborating module <si>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 41: Module instantiation should have an instance name
+
+Elaborating module <sol>.
+WARNING:HDLCompiler:604 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v" Line 42: Module instantiation should have an instance name
+
+Elaborating module <silencio>.
+WARNING:HDLCompiler:189 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 39: Size mismatch in connection of port <sel>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 39: Assignment to sel ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 48: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 54: Result of 32-bit expression is truncated to fit in 6-bit target.
+
+Elaborating module <displayfrecuencces>.
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 67: Assignment to clko ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 295: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" Line 67: Net <clk_in> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" Line 42: Assignment to audio ignored, since the identifier is never used
+
+Elaborating module <clock_500hz>.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" Line 50: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:Xst:2972 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" line 67. All outputs of instance <frecd> of block <displayfrecuencces> are unconnected in block <contador>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <displays>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v".
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <d0> of the instance <concon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <d1> of the instance <concon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <d2> of the instance <concon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <seg> of the instance <concon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <bas> of the instance <concon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\displays.v" line 42: Output port <audio> of the instance <concon> is unconnected or connected to loadless signal.
+    Found 7-bit register for signal <seg>.
+    Found 3-bit register for signal <base>.
+    Found 3-bit register for signal <contador>.
+    Found 3-bit adder for signal <contador[2]_GND_1_o_add_1_OUT> created at line 50.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  13 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <displays> synthesized.
+
+Synthesizing Unit <contador>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v".
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" line 39: Output port <sel> of the instance <notas_musicales> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" line 39: Output port <h> of the instance <notas_musicales> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" line 67: Output port <clko> of the instance <frecd> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\contador.v" line 67: Output port <clko1> of the instance <frecd> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <clk_in> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 6-bit register for signal <out>.
+    Found 8-bit register for signal <d0>.
+    Found 8-bit register for signal <d1>.
+    Found 8-bit register for signal <d2>.
+    Found 3-bit register for signal <contador>.
+    Found 8-bit register for signal <seg>.
+    Found 8-bit register for signal <bas>.
+    Found 6-bit adder for signal <out[5]_GND_2_o_add_1_OUT> created at line 48.
+    Found 3-bit adder for signal <contador[2]_GND_2_o_add_19_OUT> created at line 295.
+    Found 6-bit subtractor for signal <GND_2_o_GND_2_o_sub_5_OUT<5:0>> created at line 54.
+    Found 6-bit comparator greater for signal <out[5]_PWR_2_o_LessThan_1_o> created at line 47
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  64 Multiplexer(s).
+Unit <contador> synthesized.
+
+Synthesizing Unit <multi>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\multi.v".
+    Found 1-bit 4-to-1 multiplexer for signal <out> created at line 32.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <multi> synthesized.
+
+Synthesizing Unit <ck01>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck01.v".
+        DIVISOR = 28'b0101111101011110000100000000
+    Found 1-bit register for signal <clock_200>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_4_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_4_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <ck01> synthesized.
+
+Synthesizing Unit <ck02>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck02.v".
+        DIVISOR = 28'b0010111110101111000010000000
+    Found 1-bit register for signal <clock_300>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_5_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_5_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <ck02> synthesized.
+
+Synthesizing Unit <ck03>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck03.v".
+        DIVISOR = 28'b0011110111100100001101010101
+    Found 1-bit register for signal <clock_400>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_6_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_6_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <ck03> synthesized.
+
+Synthesizing Unit <ck04>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\ck04.v".
+        DIVISOR = 28'b0001011111010111100001000000
+    Found 1-bit register for signal <clock_500>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_7_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_7_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <ck04> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mux.v".
+    Found 256x1-bit Read Only RAM for signal <sel[7]_GND_25_o_Mux_16_o>
+WARNING:Xst:737 - Found 1-bit latch for signal <nota>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Latch(s).
+	inferred  12 Multiplexer(s).
+Unit <mux> synthesized.
+
+Synthesizing Unit <Contador_notas>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Contador.v".
+WARNING:Xst:653 - Signal <control> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <out>.
+    Found 8-bit adder for signal <out[7]_GND_9_o_add_3_OUT> created at line 37.
+    Found 8-bit comparator greater for signal <out[7]_PWR_9_o_LessThan_3_o> created at line 36
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Contador_notas> synthesized.
+
+Synthesizing Unit <Tiempo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\Tiempo.v".
+        DIVISOR = 28'b0001011011100011011000000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_10_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_10_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Tiempo> synthesized.
+
+Synthesizing Unit <doo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\doo.v".
+        DIVISOR = 28'b0000000001011101001011101111
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_11_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_11_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <doo> synthesized.
+
+Synthesizing Unit <do_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\do_grande.v".
+        DIVISOR = 28'b0000000000101110101011100101
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_12_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_12_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do_grande> synthesized.
+
+Synthesizing Unit <do_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\do_sos.v".
+        DIVISOR = 28'b0000000001011000001000110011
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_13_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_13_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do_sos> synthesized.
+
+Synthesizing Unit <fa_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\fa_sos.v".
+        DIVISOR = 28'b0000000001000001111110111110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_14_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_14_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <fa_sos> synthesized.
+
+Synthesizing Unit <la>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\la.v".
+        DIVISOR = 28'b0000000000110111011111001000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_15_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_15_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la> synthesized.
+
+Synthesizing Unit <la_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\la_sos.v".
+        DIVISOR = 28'b0000000000110100011001000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_16_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_16_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la_sos> synthesized.
+
+Synthesizing Unit <mi>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mi.v".
+        DIVISOR = 28'b0000000001001001111110110110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_17_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_17_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <mi> synthesized.
+
+Synthesizing Unit <mi_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\mi_grande.v".
+        DIVISOR = 28'b0000000000100101000011000001
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_18_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_18_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <mi_grande> synthesized.
+
+Synthesizing Unit <re>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re.v".
+        DIVISOR = 28'b0000000001010011000010101000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_19_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_19_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re> synthesized.
+
+Synthesizing Unit <re_sos>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re_sos.v".
+        DIVISOR = 28'b0000000001001110100000000111
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_20_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_20_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re_sos> synthesized.
+
+Synthesizing Unit <re_sos_grande>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\re_sos_grande.v".
+        DIVISOR = 28'b0000000000100111010000000011
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_21_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_21_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re_sos_grande> synthesized.
+
+Synthesizing Unit <si>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\si.v".
+        DIVISOR = 28'b0000000000110001011010111101
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_22_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_22_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <si> synthesized.
+
+Synthesizing Unit <sol>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\sol.v".
+        DIVISOR = 28'b0000000000111110010001111110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_23_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_23_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <sol> synthesized.
+
+Synthesizing Unit <silencio>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\silencio.v".
+        DIVISOR = 28'b0000000000000000000000000000
+    WARNING:Xst:2404 -  FFs/Latches <clock_out<0:0>> (without init value) have a constant value of 0 in block <silencio>.
+    Summary:
+	no macro.
+Unit <silencio> synthesized.
+
+Synthesizing Unit <clock_500hz>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador_as_des\contador_as_des\Notas_musicales\clock_500hz.v".
+        DIVISOR = 28'b0000000000110000110101000000
+    Found 1-bit register for signal <h>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_27_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_27_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <clock_500hz> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x1-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 23
+ 28-bit adder                                          : 19
+ 3-bit adder                                           : 2
+ 6-bit addsub                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 49
+ 1-bit register                                        : 19
+ 28-bit register                                       : 19
+ 3-bit register                                        : 3
+ 6-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 6
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 40
+ 28-bit comparator greater                             : 38
+ 6-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 80
+ 1-bit 2-to-1 multiplexer                              : 12
+ 1-bit 4-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 7
+ 7-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 57
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <notas_musicales> is unconnected in block <concon>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <Contador_notas>.
+The following registers are absorbed into counter <out>: 1 register on signal <out>.
+Unit <Contador_notas> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Tiempo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <Tiempo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ck01>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ck01> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ck02>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ck02> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ck03>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ck03> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ck04>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ck04> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clock_500hz>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <clock_500hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <contador> synthesized (advanced).
+
+Synthesizing (advanced) Unit <displays>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <displays> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <doo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <doo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <fa_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <fa_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mi>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mi> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mi_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mi_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mux>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_sel[7]_GND_25_o_Mux_16_o> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 1-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <mux> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re_sos>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re_sos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re_sos_grande>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re_sos_grande> synthesized (advanced).
+
+Synthesizing (advanced) Unit <si>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <si> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sol>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <sol> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x1-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 1
+ 6-bit addsub                                          : 1
+# Counters                                             : 22
+ 28-bit up counter                                     : 19
+ 3-bit up counter                                      : 2
+ 8-bit up counter                                      : 1
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+# Comparators                                          : 40
+ 28-bit comparator greater                             : 38
+ 6-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 80
+ 1-bit 2-to-1 multiplexer                              : 12
+ 1-bit 4-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 7
+ 7-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 57
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch d0_7 hinder the constant cleaning in the block contador.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch d1_7 hinder the constant cleaning in the block contador.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch d2_7 hinder the constant cleaning in the block contador.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <bas_3> (without init value) has a constant value of 0 in block <contador>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bas_4> (without init value) has a constant value of 0 in block <contador>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bas_5> (without init value) has a constant value of 0 in block <contador>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bas_6> (without init value) has a constant value of 0 in block <contador>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bas_7> (without init value) has a constant value of 0 in block <contador>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <seg_1> in Unit <displays> is equivalent to the following FF/Latch, which will be removed : <seg_2> 
+INFO:Xst:2261 - The FF/Latch <seg_4> in Unit <displays> is equivalent to the following FF/Latch, which will be removed : <seg_5> 
+INFO:Xst:2261 - The FF/Latch <d0_7> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_7> <d2_7> 
+INFO:Xst:2261 - The FF/Latch <d0_0> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_0> <d2_0> 
+
+Optimizing unit <displays> ...
+
+Optimizing unit <contador> ...
+INFO:Xst:2261 - The FF/Latch <d0_1> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_1> <d2_1> 
+INFO:Xst:2261 - The FF/Latch <d0_2> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_2> <d2_2> 
+INFO:Xst:2261 - The FF/Latch <d0_3> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_3> <d2_3> 
+INFO:Xst:2261 - The FF/Latch <d0_4> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_4> <d2_4> 
+INFO:Xst:2261 - The FF/Latch <d0_5> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_5> <d2_5> 
+INFO:Xst:2261 - The FF/Latch <d0_6> in Unit <contador> is equivalent to the following 2 FFs/Latches, which will be removed : <d1_6> <d2_6> 
+
+Optimizing unit <mux> ...
+WARNING:Xst:2677 - Node <concon/contador_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/contador_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/contador_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/d0_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/seg_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/bas_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/bas_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/bas_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_27> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_26> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_25> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_24> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_23> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_22> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_21> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_20> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_19> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_18> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_17> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_16> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_15> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_14> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_13> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_12> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_11> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_10> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_9> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_8> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/counter_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_7> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_6> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_5> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_4> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_3> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_2> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_1> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/out_0> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000013/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000012/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000011/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000010/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000009/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000008/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000007/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000006/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000005/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000004/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000003/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000002/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/_i000001/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/contador_notas/tiempo/clock_out> of sequential type is unconnected in block <displays>.
+WARNING:Xst:2677 - Node <concon/notas_musicales/nota> of sequential type is unconnected in block <displays>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block displays, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 162
+ Flip-Flops                                            : 162
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : displays.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 622
+#      GND                         : 1
+#      INV                         : 14
+#      LUT1                        : 135
+#      LUT2                        : 13
+#      LUT3                        : 25
+#      LUT4                        : 14
+#      LUT5                        : 66
+#      LUT6                        : 19
+#      MUXCY                       : 192
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 140
+# FlipFlops/Latches                : 162
+#      FD                          : 8
+#      FDC                         : 6
+#      FDE                         : 8
+#      FDR                         : 140
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 5
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx9csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             162  out of  11440     1%  
+ Number of Slice LUTs:                  286  out of   5720     5%  
+    Number used as Logic:               286  out of   5720     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    287
+   Number with an unused Flip Flop:     125  out of    287    43%  
+   Number with an unused LUT:             1  out of    287     0%  
+   Number of fully used LUT-FF pairs:   161  out of    287    56%  
+   Number of unique control sets:         9
+
+IO Utilization: 
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    200     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------+------------------------+-------+
+Clock Signal                              | Clock buffer(FF name)  | Load  |
+------------------------------------------+------------------------+-------+
+clock_displays/h                          | NONE(base_0)           | 11    |
+clk_in                                    | BUFGP                  | 145   |
+concon/frecuencia(concon/mux/Mmux_out11:O)| NONE(*)(concon/out_5)  | 6     |
+------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.301ns (Maximum Frequency: 232.491MHz)
+   Minimum input arrival time before clock: 4.664ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_displays/h'
+  Clock period: 3.320ns (frequency: 301.200MHz)
+  Total number of paths / destination ports: 47 / 19
+-------------------------------------------------------------------------
+Delay:               3.320ns (Levels of Logic = 3)
+  Source:            contador_1 (FF)
+  Destination:       seg_0 (FF)
+  Source Clock:      clock_displays/h rising
+  Destination Clock: clock_displays/h rising
+
+  Data Path: contador_1 to seg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.447   0.961  contador_1 (contador_1)
+     LUT3:I1->O            1   0.203   0.580  seg[6]_D1[6]_mux_12_OUT<4>_SW0 (N8)
+     LUT6:I5->O            2   0.205   0.617  seg[6]_D1[6]_mux_12_OUT<4> (seg[6]_D1[6]_mux_12_OUT<4>)
+     LUT5:I4->O            1   0.205   0.000  Mmux_seg[6]_D1[6]_mux_12_OUT1 (seg[6]_D1[6]_mux_12_OUT<0>)
+     FDE:D                     0.102          seg_0
+    ----------------------------------------
+    Total                      3.320ns (1.162ns logic, 2.158ns route)
+                                       (35.0% logic, 65.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_in'
+  Clock period: 3.879ns (frequency: 257.776MHz)
+  Total number of paths / destination ports: 8441 / 285
+-------------------------------------------------------------------------
+Delay:               3.879ns (Levels of Logic = 7)
+  Source:            concon/mux/f2/counter_6 (FF)
+  Destination:       concon/mux/f2/counter_27 (FF)
+  Source Clock:      clk_in rising
+  Destination Clock: clk_in rising
+
+  Data Path: concon/mux/f2/counter_6 to concon/mux/f2/counter_27
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.447   1.059  concon/mux/f2/counter_6 (concon/mux/f2/counter_6)
+     LUT5:I0->O            1   0.203   0.000  concon/mux/f2/Mcompar_n0001_lut<0> (concon/mux/f2/Mcompar_n0001_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  concon/mux/f2/Mcompar_n0001_cy<0> (concon/mux/f2/Mcompar_n0001_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  concon/mux/f2/Mcompar_n0001_cy<1> (concon/mux/f2/Mcompar_n0001_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  concon/mux/f2/Mcompar_n0001_cy<2> (concon/mux/f2/Mcompar_n0001_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  concon/mux/f2/Mcompar_n0001_cy<3> (concon/mux/f2/Mcompar_n0001_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  concon/mux/f2/Mcompar_n0001_cy<4> (concon/mux/f2/Mcompar_n0001_cy<4>)
+     MUXCY:CI->O          28   0.258   1.234  concon/mux/f2/Mcompar_n0001_cy<5> (concon/mux/f2/Mcompar_n0001_cy<5>)
+     FDR:R                     0.430          concon/mux/f2/counter_0
+    ----------------------------------------
+    Total                      3.879ns (1.586ns logic, 2.293ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'concon/frecuencia'
+  Clock period: 4.301ns (frequency: 232.491MHz)
+  Total number of paths / destination ports: 123 / 6
+-------------------------------------------------------------------------
+Delay:               4.301ns (Levels of Logic = 4)
+  Source:            concon/out_1 (FF)
+  Destination:       concon/out_5 (FF)
+  Source Clock:      concon/frecuencia rising
+  Destination Clock: concon/frecuencia rising
+
+  Data Path: concon/out_1 to concon/out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.447   1.086  concon/out_1 (concon/out_1)
+     LUT2:I0->O            2   0.203   0.617  concon/Mmux_PWR_2_o_GND_2_o_mux_6_OUT_rs_lut<0>3_SW0 (N16)
+     LUT6:I5->O            3   0.205   0.651  concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT211 (concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT21)
+     LUT6:I5->O            1   0.205   0.580  concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT511 (concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT51)
+     LUT6:I5->O            1   0.205   0.000  concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT6 (concon/GND_2_o_PWR_2_o_mux_7_OUT<5>)
+     FDC:D                     0.102          concon/out_5
+    ----------------------------------------
+    Total                      4.301ns (1.367ns logic, 2.934ns route)
+                                       (31.8% logic, 68.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'concon/frecuencia'
+  Total number of paths / destination ports: 39 / 12
+-------------------------------------------------------------------------
+Offset:              4.664ns (Levels of Logic = 4)
+  Source:            updown (PAD)
+  Destination:       concon/out_5 (FF)
+  Destination Clock: concon/frecuencia rising
+
+  Data Path: updown to concon/out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.222   1.300  updown_IBUF (updown_IBUF)
+     LUT4:I1->O            2   0.205   0.845  concon/Mmux_PWR_2_o_GND_2_o_mux_6_OUT_A111 (concon/Mmux_PWR_2_o_GND_2_o_mux_6_OUT_A11)
+     LUT6:I3->O            1   0.205   0.580  concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT511 (concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT51)
+     LUT6:I5->O            1   0.205   0.000  concon/Mmux_GND_2_o_PWR_2_o_mux_7_OUT6 (concon/GND_2_o_PWR_2_o_mux_7_OUT<5>)
+     FDC:D                     0.102          concon/out_5
+    ----------------------------------------
+    Total                      4.664ns (1.939ns logic, 2.725ns route)
+                                       (41.6% logic, 58.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_displays/h'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            seg_4 (FF)
+  Destination:       seg<5> (PAD)
+  Source Clock:      clock_displays/h rising
+
+  Data Path: seg_4 to seg<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  seg_4 (seg_4)
+     OBUF:I->O                 2.571          seg_5_OBUF (seg<5>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_in         |    3.879|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock_displays/h
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+clock_displays/h |    3.320|         |         |         |
+concon/frecuencia|    3.547|         |         |         |
+-----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock concon/frecuencia
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+concon/frecuencia|    4.301|         |         |         |
+-----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.80 secs
+ 
+--> 
+
+Total memory usage is 4503860 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  479 (   0 filtered)
+Number of infos    :   23 (   0 filtered)
+

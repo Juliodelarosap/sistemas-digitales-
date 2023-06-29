@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "prueba1a.ngc" prueba1a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o prueba1a_map.ncd prueba1a.ngd prueba1a.pcf 
+par -w -intstyle ise -ol high -mt off prueba1a_map.ncd prueba1a.ncd prueba1a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml prueba1a.twx prueba1a.ncd -o prueba1a.twr prueba1a.pcf 
+bitgen -intstyle ise -f prueba1a.ut prueba1a.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba1b.ucf -p xc6slx9-csg324-2 "prueba1a.ngc" prueba1a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o prueba1a_map.ncd prueba1a.ngd prueba1a.pcf 
+par -w -intstyle ise -ol high -mt off prueba1a_map.ncd prueba1a.ncd prueba1a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml prueba1a.twx prueba1a.ncd -o prueba1a.twr prueba1a.pcf -ucf prueba1b.ucf 
+bitgen -intstyle ise -f prueba1a.ut prueba1a.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/prueba1/prueba1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba1b.ucf -p xc6slx9-csg324-2 "prueba1a.ngc" prueba1a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o prueba1a_map.ncd prueba1a.ngd prueba1a.pcf 
+par -w -intstyle ise -ol high -mt off prueba1a_map.ncd prueba1a.ncd prueba1a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml prueba1a.twx prueba1a.ncd -o prueba1a.twr prueba1a.pcf -ucf prueba1b.ucf 
+bitgen -intstyle ise -f prueba1a.ut prueba1a.ncd 

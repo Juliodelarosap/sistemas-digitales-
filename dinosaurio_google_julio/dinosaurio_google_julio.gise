@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="dinosaurio_google_julio.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Tiempo.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Tiempo.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Tiempo.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Tiempo.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Tiempo.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tiempo.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Tiempo.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Tiempo.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Tiempo.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Tiempo_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Tiempo_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Tiempo_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="display7s.tfi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="google_dinosaurio.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="google_dinosaurio.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="google_dinosaurio.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="google_dinosaurio.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="google_dinosaurio.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="google_dinosaurio.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="google_dinosaurio.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="google_dinosaurio.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="google_dinosaurio.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="google_dinosaurio.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="google_dinosaurio.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="google_dinosaurio.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="google_dinosaurio.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="google_dinosaurio.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="google_dinosaurio.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="google_dinosaurio.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="google_dinosaurio.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="google_dinosaurio.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="google_dinosaurio.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="google_dinosaurio.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="google_dinosaurio.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="google_dinosaurio.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="google_dinosaurio.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="google_dinosaurio.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="google_dinosaurio_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="google_dinosaurio_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="google_dinosaurio_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="google_dinosaurio_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="google_dinosaurio_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="google_dinosaurio_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="google_dinosaurio_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="google_dinosaurio_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="google_dinosaurio_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="google_dinosaurio_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="google_dinosaurio_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="google_dinosaurio_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="google_dinosaurio_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="google_dinosaurio_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="google_dinosaurio_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_4"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1679346539" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1679346539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679524705" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6192421734140722436" xil_pn:start_ts="1679524705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1679524705" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7729020569049176430" xil_pn:start_ts="1679524705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679524556" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1679524556">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679524705" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-48023262203572112" xil_pn:start_ts="1679524705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679527754" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3448225648602706267" xil_pn:start_ts="1679527754">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679527754" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-589167744109674056" xil_pn:start_ts="1679527754">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668803" xil_pn:in_ck="-8891228619571942919" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6053974391806180790" xil_pn:start_ts="1679668792">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Tiempo.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.lso"/>
+      <outfile xil_pn:name="google_dinosaurio.ngc"/>
+      <outfile xil_pn:name="google_dinosaurio.ngr"/>
+      <outfile xil_pn:name="google_dinosaurio.prj"/>
+      <outfile xil_pn:name="google_dinosaurio.stx"/>
+      <outfile xil_pn:name="google_dinosaurio.syr"/>
+      <outfile xil_pn:name="google_dinosaurio.xst"/>
+      <outfile xil_pn:name="google_dinosaurio_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1679615038" xil_pn:in_ck="3409783282502985" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1604834374048913125" xil_pn:start_ts="1679615038">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668810" xil_pn:in_ck="8181916023882629660" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3316531834384249180" xil_pn:start_ts="1679668803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.bld"/>
+      <outfile xil_pn:name="google_dinosaurio.ngd"/>
+      <outfile xil_pn:name="google_dinosaurio_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668820" xil_pn:in_ck="-5690071967816494647" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-6569694987660717585" xil_pn:start_ts="1679668810">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.pcf"/>
+      <outfile xil_pn:name="google_dinosaurio_map.map"/>
+      <outfile xil_pn:name="google_dinosaurio_map.mrp"/>
+      <outfile xil_pn:name="google_dinosaurio_map.ncd"/>
+      <outfile xil_pn:name="google_dinosaurio_map.ngm"/>
+      <outfile xil_pn:name="google_dinosaurio_map.xrpt"/>
+      <outfile xil_pn:name="google_dinosaurio_summary.xml"/>
+      <outfile xil_pn:name="google_dinosaurio_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668832" xil_pn:in_ck="9164716799012265314" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="7044443079611515937" xil_pn:start_ts="1679668820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.ncd"/>
+      <outfile xil_pn:name="google_dinosaurio.pad"/>
+      <outfile xil_pn:name="google_dinosaurio.par"/>
+      <outfile xil_pn:name="google_dinosaurio.ptwx"/>
+      <outfile xil_pn:name="google_dinosaurio.unroutes"/>
+      <outfile xil_pn:name="google_dinosaurio.xpi"/>
+      <outfile xil_pn:name="google_dinosaurio_pad.csv"/>
+      <outfile xil_pn:name="google_dinosaurio_pad.txt"/>
+      <outfile xil_pn:name="google_dinosaurio_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668904" xil_pn:in_ck="-6167378197066818468" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="-6270489860592267034" xil_pn:start_ts="1679668893">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.bgn"/>
+      <outfile xil_pn:name="google_dinosaurio.bin"/>
+      <outfile xil_pn:name="google_dinosaurio.bit"/>
+      <outfile xil_pn:name="google_dinosaurio.drc"/>
+      <outfile xil_pn:name="google_dinosaurio.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1679668832" xil_pn:in_ck="-5690071967816494779" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1679668827">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="google_dinosaurio.twr"/>
+      <outfile xil_pn:name="google_dinosaurio.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

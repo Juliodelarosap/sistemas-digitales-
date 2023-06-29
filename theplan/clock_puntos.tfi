@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+clock_puntos instance_name (
+    .clk(clk), 
+    .clkout(clkout)
+    );
+
+

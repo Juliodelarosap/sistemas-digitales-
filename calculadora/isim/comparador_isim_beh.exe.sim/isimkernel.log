@@ -1,0 +1,29 @@
+Command line:
+   comparador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49879
+
+Mon Feb 13 00:37:08 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5807.49 Meg
+
+ Total Signals          : 15
+ Total Nets             : 26
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 109
+Total Line Count : 22
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5021.06 Meg
+
+Mon Feb 13 00:38:42 2023
+

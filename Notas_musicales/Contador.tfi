@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Contador instance_name (
+    .reset(reset), 
+    .CLK_100MHz(CLK_100MHz), 
+    .complete_tick(complete_tick), 
+    .count(count)
+    );
+
+

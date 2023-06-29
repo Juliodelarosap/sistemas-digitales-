@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Prueba_VGA instance_name (
+    .clock(clock), 
+    .select(select), 
+    .puerta(puerta), 
+    .red(red), 
+    .green(green), 
+    .blue(blue), 
+    .hsync(hsync), 
+    .vsync(vsync)
+    );
+
+

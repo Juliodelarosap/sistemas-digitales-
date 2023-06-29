@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj contador_as_des -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador_as_des/contador_as_des/clock_500hz.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador_as_des/contador_as_des/Notas_musicales//clock_500hz.v" -module clock_500hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

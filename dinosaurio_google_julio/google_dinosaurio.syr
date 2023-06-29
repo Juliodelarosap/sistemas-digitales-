@@ -1,0 +1,804 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> Reading design: google_dinosaurio.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "google_dinosaurio.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "google_dinosaurio"
+Output Format                      : NGC
+Target Device                      : xa6slx9-3-csg324
+
+---- Source Options
+Top Module Name                    : google_dinosaurio
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\tiempo.v" into library work
+Parsing module <Tiempo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\display7s.v" into library work
+Parsing module <display7s>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\clock_500hz.v" into library work
+Parsing module <clock_500hz>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" into library work
+Parsing module <google_dinosaurio>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <google_dinosaurio>.
+
+Elaborating module <Tiempo>.
+
+Elaborating module <display7s>.
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 48: Assignment to bcd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 49: Assignment to bcd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 50: Assignment to bcd ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 88: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 94: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 100: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 112: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 118: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 124: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 139: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <clock_500hz>.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 152: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v" Line 41: Net <control> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <google_dinosaurio>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\google_dinosaurio.v".
+WARNING:Xst:653 - Signal <control> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <st>.
+    Found 4-bit register for signal <out>.
+    Found 1-bit register for signal <a1>.
+    Found 4-bit register for signal <out_2>.
+    Found 1-bit register for signal <a2>.
+    Found 4-bit register for signal <out_3>.
+    Found 3-bit register for signal <contador>.
+    Found 7-bit register for signal <seg>.
+    Found 3-bit register for signal <bas>.
+    Found 1-bit register for signal <stop>.
+    Found 2-bit subtractor for signal <n0077> created at line 88.
+    Found 2-bit subtractor for signal <n0083> created at line 112.
+    Found 4-bit adder for signal <out[3]_GND_1_o_add_18_OUT> created at line 94.
+    Found 1-bit adder for signal <a1_PWR_1_o_add_19_OUT<0>> created at line 100.
+    Found 4-bit adder for signal <out_2[3]_GND_1_o_add_29_OUT> created at line 118.
+    Found 1-bit adder for signal <a2_PWR_1_o_add_30_OUT<0>> created at line 124.
+    Found 4-bit adder for signal <out_3[3]_GND_1_o_add_39_OUT> created at line 139.
+    Found 3-bit adder for signal <contador[2]_GND_1_o_add_45_OUT> created at line 152.
+    Found 4-bit comparator greater for signal <out[3]_PWR_1_o_LessThan_18_o> created at line 92
+    Found 4-bit comparator greater for signal <out_2[3]_PWR_1_o_LessThan_29_o> created at line 116
+    Found 4-bit comparator greater for signal <out_3[3]_PWR_1_o_LessThan_39_o> created at line 138
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <google_dinosaurio> synthesized.
+
+Synthesizing Unit <Tiempo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\tiempo.v".
+        DIVISOR = 28'b0001001100010010110100000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_2_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_2_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Tiempo> synthesized.
+
+Synthesizing Unit <display7s>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\display7s.v".
+    Summary:
+	no macro.
+Unit <display7s> synthesized.
+
+Synthesizing Unit <clock_500hz>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\dinosaurio_google_julio\clock_500hz.v".
+        DIVISOR = 28'b0000000000110000110101000000
+    Found 1-bit register for signal <g>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_4_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_4_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <clock_500hz> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 10
+ 1-bit adder                                           : 2
+ 2-bit subtractor                                      : 2
+ 28-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 3
+# Registers                                            : 14
+ 1-bit register                                        : 6
+ 28-bit register                                       : 2
+ 3-bit register                                        : 2
+ 4-bit register                                        : 3
+ 7-bit register                                        : 1
+# Comparators                                          : 7
+ 28-bit comparator greater                             : 4
+ 4-bit comparator greater                              : 3
+# Multiplexers                                         : 10
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 3
+ 7-bit 2-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Tiempo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <Tiempo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clock_500hz>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <clock_500hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <google_dinosaurio>.
+The following registers are absorbed into counter <out>: 1 register on signal <out>.
+The following registers are absorbed into counter <a1>: 1 register on signal <a1>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+The following registers are absorbed into counter <out_2>: 1 register on signal <out_2>.
+The following registers are absorbed into counter <a2>: 1 register on signal <a2>.
+The following registers are absorbed into counter <out_3>: 1 register on signal <out_3>.
+Unit <google_dinosaurio> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 1-bit subtractor                                      : 2
+# Counters                                             : 8
+ 1-bit up counter                                      : 2
+ 28-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 3
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+# Comparators                                          : 7
+ 28-bit comparator greater                             : 4
+ 4-bit comparator greater                              : 3
+# Multiplexers                                         : 5
+ 3-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <google_dinosaurio> ...
+WARNING:Xst:1293 - FF/Latch <tiempo/counter_25> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo/counter_26> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo/counter_27> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_18> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_19> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_20> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_21> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_22> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_23> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_24> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_25> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_26> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clkdis/counter_27> has a constant value of 0 in block <google_dinosaurio>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block google_dinosaurio, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 74
+ Flip-Flops                                            : 74
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : google_dinosaurio.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 284
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 41
+#      LUT2                        : 50
+#      LUT3                        : 26
+#      LUT4                        : 26
+#      LUT5                        : 22
+#      LUT6                        : 2
+#      MUXCY                       : 64
+#      VCC                         : 1
+#      XORCY                       : 43
+# FlipFlops/Latches                : 74
+#      FD                          : 51
+#      FDE                         : 10
+#      FDR                         : 9
+#      FDRE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 4
+#      OBUF                        : 31
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx9csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              74  out of  11440     0%  
+ Number of Slice LUTs:                  175  out of   5720     3%  
+    Number used as Logic:               175  out of   5720     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    177
+   Number with an unused Flip Flop:     103  out of    177    58%  
+   Number with an unused LUT:             2  out of    177     1%  
+   Number of fully used LUT-FF pairs:    72  out of    177    40%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          48
+ Number of bonded IOBs:                  36  out of    200    18%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 47    |
+clkdis/g                           | NONE(bas_0)            | 13    |
+tiempo/clock_out                   | NONE(out_0)            | 5     |
+a1                                 | NONE(out_2_0)          | 5     |
+a2                                 | NONE(out_3_0)          | 4     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.651ns (Maximum Frequency: 273.920MHz)
+   Minimum input arrival time before clock: 3.429ns
+   Maximum output required time after clock: 4.958ns
+   Maximum combinational path delay: 5.402ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdis/g'
+  Clock period: 2.841ns (frequency: 352.020MHz)
+  Total number of paths / destination ports: 55 / 23
+-------------------------------------------------------------------------
+Delay:               2.841ns (Levels of Logic = 1)
+  Source:            contador_1 (FF)
+  Destination:       bas_0 (FF)
+  Source Clock:      clkdis/g rising
+  Destination Clock: clkdis/g rising
+
+  Data Path: contador_1 to bas_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.447   1.013  contador_1 (contador_1)
+     LUT3:I1->O           10   0.203   0.856  _n0147_inv1 (_n0147_inv)
+     FDE:CE                    0.322          bas_0
+    ----------------------------------------
+    Total                      2.841ns (0.972ns logic, 1.869ns route)
+                                       (34.2% logic, 65.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.651ns (frequency: 273.920MHz)
+  Total number of paths / destination ports: 2008 / 46
+-------------------------------------------------------------------------
+Delay:               3.651ns (Levels of Logic = 7)
+  Source:            tiempo/counter_8 (FF)
+  Destination:       tiempo/counter_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: tiempo/counter_8 to tiempo/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   1.059  tiempo/counter_8 (tiempo/counter_8)
+     LUT5:I0->O            1   0.203   0.000  tiempo/Mcompar_n0001_lut<1> (tiempo/Mcompar_n0001_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  tiempo/Mcompar_n0001_cy<1> (tiempo/Mcompar_n0001_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  tiempo/Mcompar_n0001_cy<2> (tiempo/Mcompar_n0001_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  tiempo/Mcompar_n0001_cy<3> (tiempo/Mcompar_n0001_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  tiempo/Mcompar_n0001_cy<4> (tiempo/Mcompar_n0001_cy<4>)
+     MUXCY:CI->O          25   0.213   1.193  tiempo/Mcompar_n0001_cy<5> (tiempo/Mcompar_n0001_cy<5>)
+     LUT2:I1->O            1   0.205   0.000  tiempo/counter_0_rstpot (tiempo/counter_0_rstpot)
+     FD:D                      0.102          tiempo/counter_0
+    ----------------------------------------
+    Total                      3.651ns (1.399ns logic, 2.252ns route)
+                                       (38.3% logic, 61.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'tiempo/clock_out'
+  Clock period: 2.802ns (frequency: 356.850MHz)
+  Total number of paths / destination ports: 20 / 5
+-------------------------------------------------------------------------
+Delay:               2.802ns (Levels of Logic = 2)
+  Source:            out_1 (FF)
+  Destination:       a1 (FF)
+  Source Clock:      tiempo/clock_out falling
+  Destination Clock: tiempo/clock_out falling
+
+  Data Path: out_1 to a1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   1.037  out_1 (out_1)
+     LUT2:I0->O            1   0.203   0.808  a1_rstpot1_SW0 (N0)
+     LUT6:I3->O            1   0.205   0.000  a1_rstpot1 (a1_rstpot1)
+     FD:D                      0.102          a1
+    ----------------------------------------
+    Total                      2.802ns (0.957ns logic, 1.845ns route)
+                                       (34.2% logic, 65.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'a1'
+  Clock period: 2.798ns (frequency: 357.443MHz)
+  Total number of paths / destination ports: 20 / 6
+-------------------------------------------------------------------------
+Delay:               2.798ns (Levels of Logic = 1)
+  Source:            out_2_2 (FF)
+  Destination:       a2 (FF)
+  Source Clock:      a1 rising
+  Destination Clock: a1 rising
+
+  Data Path: out_2_2 to a2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.447   1.137  out_2_2 (out_2_2)
+     LUT6:I3->O            1   0.205   0.579  _n01271 (_n0127)
+     FDR:R                     0.430          a2
+    ----------------------------------------
+    Total                      2.798ns (1.082ns logic, 1.716ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'a2'
+  Clock period: 1.908ns (frequency: 524.164MHz)
+  Total number of paths / destination ports: 15 / 4
+-------------------------------------------------------------------------
+Delay:               1.908ns (Levels of Logic = 1)
+  Source:            out_3_0 (FF)
+  Destination:       out_3_0 (FF)
+  Source Clock:      a2 rising
+  Destination Clock: a2 rising
+
+  Data Path: out_3_0 to out_3_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.447   1.156  out_3_0 (out_3_0)
+     LUT4:I0->O            1   0.203   0.000  Mcount_out_3_xor<0>11 (Mcount_out_3)
+     FDR:D                     0.102          out_3_0
+    ----------------------------------------
+    Total                      1.908ns (0.752ns logic, 1.156ns route)
+                                       (39.4% logic, 60.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.374ns (Levels of Logic = 2)
+  Source:            bp (PAD)
+  Destination:       stop (FF)
+  Destination Clock: clk rising
+
+  Data Path: bp to stop
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.845  bp_IBUF (bp_IBUF)
+     LUT3:I0->O            1   0.205   0.000  stop_rstpot (stop_rstpot)
+     FD:D                      0.102          stop
+    ----------------------------------------
+    Total                      2.374ns (1.529ns logic, 0.845ns route)
+                                       (64.4% logic, 35.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'tiempo/clock_out'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.416ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       out_0 (FF)
+  Destination Clock: tiempo/clock_out falling
+
+  Data Path: reset to out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.651  reset_IBUF (reset_IBUF)
+     LUT2:I1->O           12   0.205   0.908  Rst_GND_1_o_AND_29_o1 (Rst_GND_1_o_AND_29_o)
+     FDRE:R                    0.430          out_0
+    ----------------------------------------
+    Total                      3.416ns (1.857ns logic, 1.559ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'a1'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.429ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       a2 (FF)
+  Destination Clock: a1 rising
+
+  Data Path: reset to a2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.995  reset_IBUF (reset_IBUF)
+     LUT6:I1->O            1   0.203   0.579  _n01271 (_n0127)
+     FDR:R                     0.430          a2
+    ----------------------------------------
+    Total                      3.429ns (1.855ns logic, 1.574ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'a2'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.416ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       out_3_0 (FF)
+  Destination Clock: a2 rising
+
+  Data Path: reset to out_3_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.651  reset_IBUF (reset_IBUF)
+     LUT2:I1->O           12   0.205   0.908  Rst_GND_1_o_AND_29_o1 (Rst_GND_1_o_AND_29_o)
+     FDR:R                     0.430          out_3_0
+    ----------------------------------------
+    Total                      3.416ns (1.857ns logic, 1.559ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'tiempo/clock_out'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.950ns (Levels of Logic = 1)
+  Source:            out_1 (FF)
+  Destination:       out<1> (PAD)
+  Source Clock:      tiempo/clock_out falling
+
+  Data Path: out_1 to out<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   0.932  out_1 (out_1)
+     OBUF:I->O                 2.571          out_1_OBUF (out<1>)
+    ----------------------------------------
+    Total                      3.950ns (3.018ns logic, 0.932ns route)
+                                       (76.4% logic, 23.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdis/g'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            seg_6 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      clkdis/g rising
+
+  Data Path: seg_6 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  seg_6 (seg_6)
+     OBUF:I->O                 2.571          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'a1'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.950ns (Levels of Logic = 1)
+  Source:            out_2_1 (FF)
+  Destination:       out_2<1> (PAD)
+  Source Clock:      a1 rising
+
+  Data Path: out_2_1 to out_2<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.447   0.932  out_2_1 (out_2_1)
+     OBUF:I->O                 2.571          out_2_1_OBUF (out_2<1>)
+    ----------------------------------------
+    Total                      3.950ns (3.018ns logic, 0.932ns route)
+                                       (76.4% logic, 23.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'a2'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.926ns (Levels of Logic = 1)
+  Source:            out_3_1 (FF)
+  Destination:       out_3<1> (PAD)
+  Source Clock:      a2 rising
+
+  Data Path: out_3_1 to out_3<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.447   0.908  out_3_1 (out_3_1)
+     OBUF:I->O                 2.571          out_3_1_OBUF (out_3<1>)
+    ----------------------------------------
+    Total                      3.926ns (3.018ns logic, 0.908ns route)
+                                       (76.9% logic, 23.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.958ns (Levels of Logic = 2)
+  Source:            stop (FF)
+  Destination:       dino<4> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: stop to dino<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.447   1.085  stop (stop_OBUF)
+     LUT3:I0->O            3   0.205   0.650  dino<2>1 (dino_2_OBUF)
+     OBUF:I->O                 2.571          dino_4_OBUF (dino<4>)
+    ----------------------------------------
+    Total                      4.958ns (3.223ns logic, 1.735ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 13 / 7
+-------------------------------------------------------------------------
+Delay:               5.402ns (Levels of Logic = 3)
+  Source:            agacho (PAD)
+  Destination:       dino<4> (PAD)
+
+  Data Path: agacho to dino<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.755  agacho_IBUF (agacho_IBUF)
+     LUT3:I1->O            3   0.203   0.650  dino<2>1 (dino_2_OBUF)
+     OBUF:I->O                 2.571          dino_4_OBUF (dino<4>)
+    ----------------------------------------
+    Total                      5.402ns (3.996ns logic, 1.405ns route)
+                                       (74.0% logic, 26.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock a1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+a1             |    2.798|         |         |         |
+clk            |    2.949|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock a2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+a2             |    1.908|         |         |         |
+clk            |    2.949|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.651|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clkdis/g
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+a1              |    2.945|         |         |         |
+a2              |    2.693|         |         |         |
+clkdis/g        |    2.841|         |         |         |
+tiempo/clock_out|         |    2.819|         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock tiempo/clock_out
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+clk             |         |         |    2.949|         |
+tiempo/clock_out|         |         |    2.802|         |
+----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.34 secs
+ 
+--> 
+
+Total memory usage is 4487668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

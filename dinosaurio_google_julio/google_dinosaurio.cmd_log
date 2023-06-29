@@ -1,0 +1,575 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/google_dinosaurio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "google_dinosaurio.ngc" google_dinosaurio.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o google_dinosaurio_map.ncd google_dinosaurio.ngd google_dinosaurio.pcf 
+par -w -intstyle ise -ol high -mt off google_dinosaurio_map.ncd google_dinosaurio.ncd google_dinosaurio.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml google_dinosaurio.twx google_dinosaurio.ncd -o google_dinosaurio.twr google_dinosaurio.pcf -ucf GOOGLE.ucf 
+bitgen -intstyle ise -f google_dinosaurio.ut google_dinosaurio.ncd 

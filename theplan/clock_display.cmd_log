@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj theplan -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/theplan/clock_display.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/theplan//clock_display.v" -module clock_display -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

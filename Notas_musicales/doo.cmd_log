@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Notas_musicales -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/doo.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales//doo.v" -module doo -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

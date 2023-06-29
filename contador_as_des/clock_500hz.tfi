@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+clock_500hz instance_name (
+    .clock_in(clock_in), 
+    .h(h)
+    );
+
+

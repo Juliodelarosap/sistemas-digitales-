@@ -1,0 +1,29 @@
+Command line:
+   mux_plexor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  50826
+
+Sun Feb 12 18:49:25 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5018.19 Meg
+
+ Total Signals          : 17
+ Total Nets             : 48
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 140
+Total Line Count : 20
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5018.19 Meg
+
+Sun Feb 12 18:49:35 2023
+

@@ -1,0 +1,39 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Apr 21 03:44:23 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "on" LOCATE = SITE "T4" LEVEL 1;
+COMP "up" LOCATE = SITE "V5" LEVEL 1;
+COMP "DOT" LOCATE = SITE "A5" LEVEL 1;
+COMP "left" LOCATE = SITE "V4" LEVEL 1;
+COMP "down" LOCATE = SITE "R3" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "B11" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "A11" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "audio" LOCATE = SITE "A16" LEVEL 1;
+COMP "right" LOCATE = SITE "U5" LEVEL 1;
+COMP "reset" LOCATE = SITE "U7" LEVEL 1;
+COMP "start" LOCATE = SITE "V7" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "bas<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "bas<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "bas<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "A9" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "B9" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "C10" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "A10" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "vsync" LOCATE = SITE "A12" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

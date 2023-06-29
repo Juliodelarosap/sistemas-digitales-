@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Notas_musicales -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/mux.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales//mux.v" -module mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

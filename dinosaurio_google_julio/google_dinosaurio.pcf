@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 24 10:40:19 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "bp" LOCATE = SITE "K17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "dot" LOCATE = SITE "A5" LEVEL 1;
+COMP "bas<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "bas<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "bas<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "salto" LOCATE = SITE "L17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "reset" LOCATE = SITE "K18" LEVEL 1;
+COMP "dino<0>" LOCATE = SITE "R3" LEVEL 1;
+COMP "dino<1>" LOCATE = SITE "V5" LEVEL 1;
+COMP "agacho" LOCATE = SITE "M16" LEVEL 1;
+COMP "dino<2>" LOCATE = SITE "U5" LEVEL 1;
+COMP "dino<3>" LOCATE = SITE "V4" LEVEL 1;
+COMP "dino<4>" LOCATE = SITE "T4" LEVEL 1;
+COMP "dino<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "dino<6>" LOCATE = SITE "U7" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

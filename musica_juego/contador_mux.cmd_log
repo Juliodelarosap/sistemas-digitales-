@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "contador_mux.ngc" contador_mux.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_mux_map.ncd contador_mux.ngd contador_mux.pcf 
+par -w -intstyle ise -ol high -mt off contador_mux_map.ncd contador_mux.ncd contador_mux.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador_mux.twx contador_mux.ncd -o contador_mux.twr contador_mux.pcf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "contador_mux.ngc" contador_mux.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_mux_map.ncd contador_mux.ngd contador_mux.pcf 
+par -w -intstyle ise -ol high -mt off contador_mux_map.ncd contador_mux.ncd contador_mux.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador_mux.twx contador_mux.ncd -o contador_mux.twr contador_mux.pcf 
+vhdtdtfi -lang verilog -prj musica_juego -o "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/contador_mux.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/musica_juego//contador_mux.v" -module contador_mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 15 17:23:49 2023
+# Process ID: 10928
+# Log file: C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/pa.fromNetlist.tcl}

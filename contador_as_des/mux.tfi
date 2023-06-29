@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+mux instance_name (
+    .sel(sel), 
+    .nota(nota), 
+    .h(h), 
+    .clk(clk), 
+    .activado(activado)
+    );
+
+

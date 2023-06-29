@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj dinosaurio_google_julio -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/display7s.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio//display7s.v" -module display7s -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

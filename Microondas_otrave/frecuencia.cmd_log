@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Microondas_otrave -o "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/frecuencia.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave//frecuencia.v" -module frecuencia -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Contado instance_name (
+    .clk(clk), 
+    .out(out), 
+    .updown(updown), 
+    .fin(fin), 
+    .sal(sal)
+    );
+
+

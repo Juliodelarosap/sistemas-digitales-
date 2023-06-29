@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+contador_ascendente instance_name (
+    .clock(clock), 
+    .on(on), 
+    .rst(rst), 
+    .s0(s0), 
+    .s1(s1), 
+    .s2(s2), 
+    .count(count), 
+    .seg(seg), 
+    .bas(bas)
+    );
+
+

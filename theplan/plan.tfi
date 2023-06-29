@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+plan instance_name (
+    .clock(clock), 
+    .up(up), 
+    .down(down), 
+    .right(right), 
+    .left(left), 
+    .red(red), 
+    .green(green), 
+    .blue(blue), 
+    .hsync(hsync), 
+    .vsync(vsync)
+    );
+
+

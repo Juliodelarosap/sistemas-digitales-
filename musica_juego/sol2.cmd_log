@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj musica_juego -o "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/sol2.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/musica_juego//sol2.v" -module sol2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

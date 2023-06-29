@@ -1,0 +1,536 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf
+-ucf entradas.ucf
+
+Design file:              contador.ncd
+Physical constraint file: contador.pcf
+Device,package,speed:     xa6slx9,csg324,I,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 15320 paths analyzed, 1434 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.527ns.
+--------------------------------------------------------------------------------
+
+Paths for end point notas_musicales/_i000013/counter_17 (SLICE_X8Y32.SR), 29 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     5.473ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               mux/f0/counter_0 (FF)
+  Destination:          notas_musicales/_i000013/counter_17 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      4.473ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.019ns (0.271 - 0.290)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: mux/f0/counter_0 to notas_musicales/_i000013/counter_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y44.AQ       Tcko                  0.408   mux/f0/counter<3>
+                                                       mux/f0/counter_0
+    SLICE_X10Y28.A1      net (fanout=25)       2.204   mux/f0/counter<0>
+    SLICE_X10Y28.COUT    Topcya                0.395   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<0>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.442   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_17
+    -------------------------------------------------  ---------------------------
+    Total                                      4.473ns (1.467ns logic, 3.006ns route)
+                                                       (32.8% logic, 67.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.718ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               notas_musicales/_i000013/counter_17 (FF)
+  Destination:          notas_musicales/_i000013/counter_17 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.247ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: notas_musicales/_i000013/counter_17 to notas_musicales/_i000013/counter_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y32.BQ       Tcko                  0.447   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_17
+    SLICE_X10Y28.D3      net (fanout=4)        1.074   notas_musicales/_i000013/counter<17>
+    SLICE_X10Y28.COUT    Topcyd                0.260   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<3>1
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.442   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_17
+    -------------------------------------------------  ---------------------------
+    Total                                      3.247ns (1.371ns logic, 1.876ns route)
+                                                       (42.2% logic, 57.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.817ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               notas_musicales/_i000013/counter_9 (FF)
+  Destination:          notas_musicales/_i000013/counter_17 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.124ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.024ns (0.634 - 0.658)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: notas_musicales/_i000013/counter_9 to notas_musicales/_i000013/counter_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y30.BQ       Tcko                  0.447   notas_musicales/_i000013/counter<11>
+                                                       notas_musicales/_i000013/counter_9
+    SLICE_X10Y28.B2      net (fanout=3)        0.836   notas_musicales/_i000013/counter<9>
+    SLICE_X10Y28.COUT    Topcyb                0.375   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<1>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.442   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_17
+    -------------------------------------------------  ---------------------------
+    Total                                      3.124ns (1.486ns logic, 1.638ns route)
+                                                       (47.6% logic, 52.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point notas_musicales/_i000013/counter_16 (SLICE_X8Y32.SR), 29 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     5.490ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               mux/f0/counter_0 (FF)
+  Destination:          notas_musicales/_i000013/counter_16 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      4.456ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.019ns (0.271 - 0.290)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: mux/f0/counter_0 to notas_musicales/_i000013/counter_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y44.AQ       Tcko                  0.408   mux/f0/counter<3>
+                                                       mux/f0/counter_0
+    SLICE_X10Y28.A1      net (fanout=25)       2.204   mux/f0/counter<0>
+    SLICE_X10Y28.COUT    Topcya                0.395   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<0>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.425   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_16
+    -------------------------------------------------  ---------------------------
+    Total                                      4.456ns (1.450ns logic, 3.006ns route)
+                                                       (32.5% logic, 67.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.735ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               notas_musicales/_i000013/counter_17 (FF)
+  Destination:          notas_musicales/_i000013/counter_16 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.230ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: notas_musicales/_i000013/counter_17 to notas_musicales/_i000013/counter_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y32.BQ       Tcko                  0.447   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_17
+    SLICE_X10Y28.D3      net (fanout=4)        1.074   notas_musicales/_i000013/counter<17>
+    SLICE_X10Y28.COUT    Topcyd                0.260   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<3>1
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.425   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_16
+    -------------------------------------------------  ---------------------------
+    Total                                      3.230ns (1.354ns logic, 1.876ns route)
+                                                       (41.9% logic, 58.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.834ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               notas_musicales/_i000013/counter_9 (FF)
+  Destination:          notas_musicales/_i000013/counter_16 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.107ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.024ns (0.634 - 0.658)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: notas_musicales/_i000013/counter_9 to notas_musicales/_i000013/counter_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y30.BQ       Tcko                  0.447   notas_musicales/_i000013/counter<11>
+                                                       notas_musicales/_i000013/counter_9
+    SLICE_X10Y28.B2      net (fanout=3)        0.836   notas_musicales/_i000013/counter<9>
+    SLICE_X10Y28.COUT    Topcyb                0.375   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+                                                       notas_musicales/_i000013/Mcompar_n0001_lut<1>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.CIN     net (fanout=1)        0.003   notas_musicales/_i000013/Mcompar_n0001_cy<3>
+    SLICE_X10Y29.BMUX    Tcinb                 0.222   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+                                                       notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.SR       net (fanout=5)        0.799   notas_musicales/_i000013/Mcompar_n0001_cy<5>
+    SLICE_X8Y32.CLK      Tsrck                 0.425   notas_musicales/_i000013/counter<17>
+                                                       notas_musicales/_i000013/counter_16
+    -------------------------------------------------  ---------------------------
+    Total                                      3.107ns (1.469ns logic, 1.638ns route)
+                                                       (47.3% logic, 52.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point mux/f3/counter_24 (SLICE_X2Y46.SR), 41 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     5.492ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               mux/f3/counter_9 (FF)
+  Destination:          mux/f3/counter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      4.472ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.001ns (0.155 - 0.156)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: mux/f3/counter_9 to mux/f3/counter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X2Y42.BQ       Tcko                  0.408   mux/f3/counter<11>
+                                                       mux/f3/counter_9
+    SLICE_X8Y40.B2       net (fanout=3)        1.535   mux/f3/counter<9>
+    SLICE_X8Y40.COUT     Topcyb                0.380   mux/f3/Mcompar_n0001_cy<3>
+                                                       mux/f3/Mcompar_n0001_lut<1>
+                                                       mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.CIN      net (fanout=1)        0.003   mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.BMUX     Tcinb                 0.268   mux/f3/clock_500
+                                                       mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.SR       net (fanout=6)        1.434   mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.CLK      Tsrck                 0.444   mux/f3/counter<24>
+                                                       mux/f3/counter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      4.472ns (1.500ns logic, 2.972ns route)
+                                                       (33.5% logic, 66.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.560ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               mux/f3/counter_9 (FF)
+  Destination:          mux/f3/counter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      4.404ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.001ns (0.155 - 0.156)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: mux/f3/counter_9 to mux/f3/counter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X2Y42.BQ       Tcko                  0.408   mux/f3/counter<11>
+                                                       mux/f3/counter_9
+    SLICE_X8Y40.B2       net (fanout=3)        1.535   mux/f3/counter<9>
+    SLICE_X8Y40.COUT     Topcyb                0.312   mux/f3/Mcompar_n0001_cy<3>
+                                                       mux/f3/Mcompar_n0001_lutdi
+                                                       mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.CIN      net (fanout=1)        0.003   mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.BMUX     Tcinb                 0.268   mux/f3/clock_500
+                                                       mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.SR       net (fanout=6)        1.434   mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.CLK      Tsrck                 0.444   mux/f3/counter<24>
+                                                       mux/f3/counter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      4.404ns (1.432ns logic, 2.972ns route)
+                                                       (32.5% logic, 67.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.642ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               mux/f3/counter_8 (FF)
+  Destination:          mux/f3/counter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      4.322ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.001ns (0.155 - 0.156)
+  Source Clock:         clock_BUFGP rising at 0.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: mux/f3/counter_8 to mux/f3/counter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X2Y42.AQ       Tcko                  0.408   mux/f3/counter<11>
+                                                       mux/f3/counter_8
+    SLICE_X8Y40.B1       net (fanout=3)        1.385   mux/f3/counter<8>
+    SLICE_X8Y40.COUT     Topcyb                0.380   mux/f3/Mcompar_n0001_cy<3>
+                                                       mux/f3/Mcompar_n0001_lut<1>
+                                                       mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.CIN      net (fanout=1)        0.003   mux/f3/Mcompar_n0001_cy<3>
+    SLICE_X8Y41.BMUX     Tcinb                 0.268   mux/f3/clock_500
+                                                       mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.SR       net (fanout=6)        1.434   mux/f3/Mcompar_n0001_cy<5>
+    SLICE_X2Y46.CLK      Tsrck                 0.444   mux/f3/counter<24>
+                                                       mux/f3/counter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      4.322ns (1.500ns logic, 2.822ns route)
+                                                       (34.7% logic, 65.3% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point updown (SLICE_X21Y21.D6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.438ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               updown (FF)
+  Destination:          updown (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.438ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clock_BUFGP rising at 10.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: updown to updown
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y21.DQ      Tcko                  0.198   updown_OBUF
+                                                       updown
+    SLICE_X21Y21.D6      net (fanout=19)       0.025   updown_OBUF
+    SLICE_X21Y21.CLK     Tah         (-Th)    -0.215   updown_OBUF
+                                                       updown_INV_4_o1_INV_0
+                                                       updown
+    -------------------------------------------------  ---------------------------
+    Total                                      0.438ns (0.413ns logic, 0.025ns route)
+                                                       (94.3% logic, 5.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point notas_musicales/contador_notas/tiempo/counter_24 (SLICE_X10Y48.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.461ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               notas_musicales/contador_notas/tiempo/counter_24 (FF)
+  Destination:          notas_musicales/contador_notas/tiempo/counter_24 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.461ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clock_BUFGP rising at 10.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: notas_musicales/contador_notas/tiempo/counter_24 to notas_musicales/contador_notas/tiempo/counter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X10Y48.AQ      Tcko                  0.200   notas_musicales/contador_notas/tiempo/counter<24>
+                                                       notas_musicales/contador_notas/tiempo/counter_24
+    SLICE_X10Y48.A6      net (fanout=3)        0.023   notas_musicales/contador_notas/tiempo/counter<24>
+    SLICE_X10Y48.CLK     Tah         (-Th)    -0.238   notas_musicales/contador_notas/tiempo/counter<24>
+                                                       notas_musicales/contador_notas/tiempo/counter<24>_rt
+                                                       notas_musicales/contador_notas/tiempo/Mcount_counter_xor<24>
+                                                       notas_musicales/contador_notas/tiempo/counter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      0.461ns (0.438ns logic, 0.023ns route)
+                                                       (95.0% logic, 5.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point mux/f3/counter_24 (SLICE_X2Y46.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.465ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               mux/f3/counter_24 (FF)
+  Destination:          mux/f3/counter_24 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.465ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clock_BUFGP rising at 10.000ns
+  Destination Clock:    clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: mux/f3/counter_24 to mux/f3/counter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X2Y46.AQ       Tcko                  0.200   mux/f3/counter<24>
+                                                       mux/f3/counter_24
+    SLICE_X2Y46.A6       net (fanout=3)        0.027   mux/f3/counter<24>
+    SLICE_X2Y46.CLK      Tah         (-Th)    -0.238   mux/f3/counter<24>
+                                                       mux/f3/counter<24>_rt
+                                                       mux/f3/Mcount_counter_xor<24>
+                                                       mux/f3/counter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      0.465ns (0.438ns logic, 0.027ns route)
+                                                       (94.2% logic, 5.8% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 8.270ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.730ns (578.035MHz) (Tbcper_I)
+  Physical resource: clock_BUFGP/BUFG/I0
+  Logical resource: clock_BUFGP/BUFG/I0
+  Location pin: BUFGMUX_X3Y13.I0
+  Clock network: clock_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.570ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: notas_musicales/_i000003/counter<3>/CLK
+  Logical resource: notas_musicales/_i000003/counter_0/CK
+  Location pin: SLICE_X22Y42.CLK
+  Clock network: clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.570ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: notas_musicales/_i000003/counter<3>/CLK
+  Logical resource: notas_musicales/_i000003/counter_1/CK
+  Location pin: SLICE_X22Y42.CLK
+  Clock network: clock_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    4.527|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 15320 paths, 0 nets, and 1406 connections
+
+Design statistics:
+   Minimum period:   4.527ns{1}   (Maximum frequency: 220.897MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Mar 20 17:45:46 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4574 MB
+
+
+

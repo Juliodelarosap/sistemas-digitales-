@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 28: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 41: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\contado.v" Line 49: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 30: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 31: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 32: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 33: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 34: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 35: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 36: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 37: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 38: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 39: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 40: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 41: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 42: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\mux.v" Line 43: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" Line 25: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sel</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v" Line 25: Assignment to <arg fmt="%s" index="1">sel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_microondas\musica.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">h</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nota</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">clock_out</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">silencio</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000001</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000002</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000008</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000009</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000010</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000011</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000012</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">_i000014</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000012/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000011/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000010/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000009/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000008/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000002/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux/_i000001/clock_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">musica</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000004/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000003/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/contador/_i000001/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/contador/_i000001/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/contador/_i000001/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/contador/_i000001/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/contador/_i000001/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000013/counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000007/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000006/counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mux/_i000005/counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">musica</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

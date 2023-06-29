@@ -1,0 +1,991 @@
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Microondas_otrave/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidaxdxd.ucf -p xa6slx9-csg324-3 "contador.ngc" contador.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -mt off contador_map.ncd contador.ncd contador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf salidaxdxd.ucf 
+bitgen -intstyle ise -f contador.ut contador.ncd 

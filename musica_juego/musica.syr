@@ -1,0 +1,829 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: musica.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "musica.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "musica"
+Output Format                      : NGC
+Target Device                      : xa6slx9-3-csg324
+
+---- Source Options
+Top Module Name                    : musica
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\tiempo.v" into library work
+Parsing module <tiempo>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\sol2.v" into library work
+Parsing module <sol2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\sib2.v" into library work
+Parsing module <sib2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\reb3.v" into library work
+Parsing module <reb3>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\reb2.v" into library work
+Parsing module <reb2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re3.v" into library work
+Parsing module <re3>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re2.v" into library work
+Parsing module <re2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re1.v" into library work
+Parsing module <re1>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\mute.v" into library work
+Parsing module <mute>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\mi2.v" into library work
+Parsing module <mi2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\la2.v" into library work
+Parsing module <la2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\la1.v" into library work
+Parsing module <la1>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\fa2.v" into library work
+Parsing module <fa2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\do3.v" into library work
+Parsing module <do3>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\do2.v" into library work
+Parsing module <do2>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\contador_mux.v" into library work
+Parsing module <contador_mux>.
+Analyzing Verilog file "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\musica.v" into library work
+Parsing module <musica>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <musica>.
+
+Elaborating module <contador_mux>.
+
+Elaborating module <tiempo>.
+WARNING:HDLCompiler:413 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\contador_mux.v" Line 35: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <do2>.
+
+Elaborating module <do3>.
+
+Elaborating module <fa2>.
+
+Elaborating module <la1>.
+
+Elaborating module <la2>.
+
+Elaborating module <mi2>.
+
+Elaborating module <re2>.
+
+Elaborating module <reb2>.
+
+Elaborating module <reb3>.
+
+Elaborating module <sib2>.
+
+Elaborating module <sol2>.
+
+Elaborating module <mute>.
+
+Elaborating module <re1>.
+
+Elaborating module <re3>.
+WARNING:HDLCompiler:634 - "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\musica.v" Line 24: Net <control> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <musica>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\musica.v".
+WARNING:Xst:653 - Signal <control> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 256x1-bit Read Only RAM for signal <sel[7]_GND_18_o_Mux_2_o>
+WARNING:Xst:737 - Found 1-bit latch for signal <nota>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Latch(s).
+	inferred  13 Multiplexer(s).
+Unit <musica> synthesized.
+
+Synthesizing Unit <contador_mux>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\contador_mux.v".
+    Found 8-bit register for signal <out>.
+    Found 8-bit adder for signal <out[7]_GND_2_o_add_3_OUT> created at line 35.
+    Found 8-bit comparator greater for signal <out[7]_PWR_2_o_LessThan_3_o> created at line 34
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <contador_mux> synthesized.
+
+Synthesizing Unit <tiempo>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\tiempo.v".
+        DIVISOR = 28'b0001000101011011010111000000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_3_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_3_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <tiempo> synthesized.
+
+Synthesizing Unit <do2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\do2.v".
+        DIVISOR = 28'b0000000000101110101011100100
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_4_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_4_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do2> synthesized.
+
+Synthesizing Unit <do3>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\do3.v".
+        DIVISOR = 28'b0000000000010111010101110010
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_5_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_5_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <do3> synthesized.
+
+Synthesizing Unit <fa2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\fa2.v".
+        DIVISOR = 28'b0000000000100010111110100010
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_6_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_6_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <fa2> synthesized.
+
+Synthesizing Unit <la1>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\la1.v".
+        DIVISOR = 28'b0000000000110111011111001000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_7_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_7_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la1> synthesized.
+
+Synthesizing Unit <la2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\la2.v".
+        DIVISOR = 28'b0000000000011011101111100100
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_8_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_8_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <la2> synthesized.
+
+Synthesizing Unit <mi2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\mi2.v".
+        DIVISOR = 28'b0000000000100101000011000001
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_9_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_9_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <mi2> synthesized.
+
+Synthesizing Unit <re2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re2.v".
+        DIVISOR = 28'b0000000000101001100101110110
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_10_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_10_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re2> synthesized.
+
+Synthesizing Unit <reb2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\reb2.v".
+        DIVISOR = 28'b0000000000101100000100011001
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_11_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_11_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <reb2> synthesized.
+
+Synthesizing Unit <reb3>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\reb3.v".
+        DIVISOR = 28'b0000000000010110000000111011
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_12_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_12_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <reb3> synthesized.
+
+Synthesizing Unit <sib2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\sib2.v".
+        DIVISOR = 28'b0000000000011010001100100000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_13_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_13_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <sib2> synthesized.
+
+Synthesizing Unit <sol2>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\sol2.v".
+        DIVISOR = 28'b0000000000011111001000111111
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_14_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_14_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <sol2> synthesized.
+
+Synthesizing Unit <mute>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\mute.v".
+        DIVISOR = 28'b0000000000000000000000000000
+    WARNING:Xst:2404 -  FFs/Latches <clock_out<0:0>> (without init value) have a constant value of 0 in block <mute>.
+    Summary:
+	no macro.
+Unit <mute> synthesized.
+
+Synthesizing Unit <re1>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re1.v".
+        DIVISOR = 28'b0000000001010011000010101000
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_16_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_16_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re1> synthesized.
+
+Synthesizing Unit <re3>.
+    Related source file is "C:\Users\julio\OneDrive\Escritorio\sistemas digitales\musica_juego\re3.v".
+        DIVISOR = 28'b0000000000010100110001110010
+    Found 1-bit register for signal <clock_out>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_17_o_add_1_OUT> created at line 27.
+    Found 28-bit comparator greater for signal <n0001> created at line 28
+    Found 28-bit comparator greater for signal <counter[27]_GND_17_o_LessThan_5_o> created at line 30
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <re3> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x1-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 15
+ 28-bit adder                                          : 14
+ 8-bit adder                                           : 1
+# Registers                                            : 29
+ 1-bit register                                        : 14
+ 28-bit register                                       : 14
+ 8-bit register                                        : 1
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 29
+ 28-bit comparator greater                             : 28
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 13
+ 1-bit 2-to-1 multiplexer                              : 13
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <contador_mux>.
+The following registers are absorbed into counter <out>: 1 register on signal <out>.
+Unit <contador_mux> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <do3>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <do3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <fa2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <fa2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la1>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <la2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <la2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mi2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mi2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <musica>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_sel[7]_GND_18_o_Mux_2_o> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 1-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <musica> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re1>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <re3>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <re3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <reb2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <reb2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <reb3>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <reb3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sib2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <sib2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sol2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <sol2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <tiempo>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <tiempo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x1-bit single-port distributed Read Only RAM       : 1
+# Counters                                             : 15
+ 28-bit up counter                                     : 14
+ 8-bit up counter                                      : 1
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+# Comparators                                          : 29
+ 28-bit comparator greater                             : 28
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 13
+ 1-bit 2-to-1 multiplexer                              : 13
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <musica> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block musica, actual ratio is 16.
+FlipFlop contador/out_6 has been replicated 1 time(s)
+FlipFlop contador/out_7 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 416
+ Flip-Flops                                            : 416
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : musica.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2141
+#      GND                         : 1
+#      INV                         : 21
+#      LUT1                        : 385
+#      LUT2                        : 418
+#      LUT3                        : 65
+#      LUT4                        : 46
+#      LUT5                        : 213
+#      LUT6                        : 30
+#      MUXCY                       : 559
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 400
+# FlipFlops/Latches                : 417
+#      FD                          : 416
+#      LD                          : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      OBUF                        : 23
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx9csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             416  out of  11440     3%  
+ Number of Slice LUTs:                 1178  out of   5720    20%  
+    Number used as Logic:              1178  out of   5720    20%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1190
+   Number with an unused Flip Flop:     774  out of   1190    65%  
+   Number with an unused LUT:            12  out of   1190     1%  
+   Number of fully used LUT-FF pairs:   404  out of   1190    33%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    200    12%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------+------------------------+-------+
+Clock Signal                                              | Clock buffer(FF name)  | Load  |
+----------------------------------------------------------+------------------------+-------+
+sel[7]_GND_18_o_Mux_2_o(Mram_sel[7]_GND_18_o_Mux_2_o121:O)| NONE(*)(nota)          | 1     |
+clk                                                       | BUFGP                  | 406   |
+contador/tiempo/clock_out                                 | NONE(contador/out_0)   | 10    |
+----------------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.712ns (Maximum Frequency: 269.372MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.338ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.712ns (frequency: 269.372MHz)
+  Total number of paths / destination ports: 25748 / 406
+-------------------------------------------------------------------------
+Delay:               3.712ns (Levels of Logic = 8)
+  Source:            d3/counter_4 (FF)
+  Destination:       d3/counter_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: d3/counter_4 to d3/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   1.059  d3/counter_4 (d3/counter_4)
+     LUT5:I0->O            1   0.203   0.000  d3/Mcompar_n0001_lut<0> (d3/Mcompar_n0001_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  d3/Mcompar_n0001_cy<0> (d3/Mcompar_n0001_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  d3/Mcompar_n0001_cy<1> (d3/Mcompar_n0001_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  d3/Mcompar_n0001_cy<2> (d3/Mcompar_n0001_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  d3/Mcompar_n0001_cy<3> (d3/Mcompar_n0001_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  d3/Mcompar_n0001_cy<4> (d3/Mcompar_n0001_cy<4>)
+     MUXCY:CI->O          28   0.213   1.235  d3/Mcompar_n0001_cy<5> (d3/Mcompar_n0001_cy<5>)
+     LUT2:I1->O            1   0.205   0.000  d3/counter_0_rstpot (d3/counter_0_rstpot)
+     FD:D                      0.102          d3/counter_0
+    ----------------------------------------
+    Total                      3.712ns (1.418ns logic, 2.294ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'contador/tiempo/clock_out'
+  Clock period: 3.446ns (frequency: 290.203MHz)
+  Total number of paths / destination ports: 121 / 10
+-------------------------------------------------------------------------
+Delay:               3.446ns (Levels of Logic = 9)
+  Source:            contador/out_1 (FF)
+  Destination:       contador/out_7 (FF)
+  Source Clock:      contador/tiempo/clock_out rising
+  Destination Clock: contador/tiempo/clock_out rising
+
+  Data Path: contador/out_1 to contador/out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              34   0.447   1.321  contador/out_1 (contador/out_1)
+     LUT1:I0->O            1   0.205   0.000  contador/Mcount_out_cy<1>_rt (contador/Mcount_out_cy<1>_rt)
+     MUXCY:S->O            1   0.172   0.000  contador/Mcount_out_cy<1> (contador/Mcount_out_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  contador/Mcount_out_cy<2> (contador/Mcount_out_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  contador/Mcount_out_cy<3> (contador/Mcount_out_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  contador/Mcount_out_cy<4> (contador/Mcount_out_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  contador/Mcount_out_cy<5> (contador/Mcount_out_cy<5>)
+     MUXCY:CI->O           0   0.019   0.000  contador/Mcount_out_cy<6> (contador/Mcount_out_cy<6>)
+     XORCY:CI->O           2   0.180   0.721  contador/Mcount_out_xor<7> (Result<7>)
+     LUT2:I0->O            1   0.203   0.000  contador/out_7_rstpot (contador/out_7_rstpot)
+     FD:D                      0.102          contador/out_7
+    ----------------------------------------
+    Total                      3.446ns (1.404ns logic, 2.042ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'contador/tiempo/clock_out'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.338ns (Levels of Logic = 1)
+  Source:            contador/out_1 (FF)
+  Destination:       sel<1> (PAD)
+  Source Clock:      contador/tiempo/clock_out rising
+
+  Data Path: contador/out_1 to sel<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              34   0.447   1.320  contador/out_1 (contador/out_1)
+     OBUF:I->O                 2.571          sel_1_OBUF (sel<1>)
+    ----------------------------------------
+    Total                      4.338ns (3.018ns logic, 1.320ns route)
+                                       (69.6% logic, 30.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              3.668ns (Levels of Logic = 1)
+  Source:            l1/clock_out (FF)
+  Destination:       h<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: l1/clock_out to h<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.650  l1/clock_out (l1/clock_out)
+     OBUF:I->O                 2.571          h_3_OBUF (h<3>)
+    ----------------------------------------
+    Total                      3.668ns (3.018ns logic, 0.650ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel[7]_GND_18_o_Mux_2_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            nota (LATCH)
+  Destination:       nota (PAD)
+  Source Clock:      sel[7]_GND_18_o_Mux_2_o falling
+
+  Data Path: nota to nota
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.579  nota (nota_OBUF)
+     OBUF:I->O                 2.571          nota_OBUF (nota)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.712|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock contador/tiempo/clock_out
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+contador/tiempo/clock_out|    3.446|         |         |         |
+-------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sel[7]_GND_18_o_Mux_2_o
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+clk                      |         |         |    7.036|         |
+contador/tiempo/clock_out|         |         |   10.547|         |
+-------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.91 secs
+ 
+--> 
+
+Total memory usage is 4503860 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

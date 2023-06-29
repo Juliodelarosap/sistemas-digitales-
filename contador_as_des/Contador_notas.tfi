@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Contador_notas instance_name (
+    .clk(clk), 
+    .activado(activado), 
+    .out(out)
+    );
+
+

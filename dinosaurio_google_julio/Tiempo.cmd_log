@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/Tiempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GOOGLE.ucf -p xa6slx9-csg324-3 "Tiempo.ngc" Tiempo.ngd  

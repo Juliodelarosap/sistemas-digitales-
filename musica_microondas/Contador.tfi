@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Contador instance_name (
+    .clk(clk), 
+    .out(out), 
+    .activado(activado), 
+    .updown(updown)
+    );
+
+

@@ -1,0 +1,137 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 
+bitgen -intstyle ise -f Pantera_rosa.ut Pantera_rosa.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/Notas_musicales/Pantera_rosa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xa6slx9-csg324-3 "Pantera_rosa.ngc" Pantera_rosa.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pantera_rosa_map.ncd Pantera_rosa.ngd Pantera_rosa.pcf 
+par -w -intstyle ise -ol high -mt off Pantera_rosa_map.ncd Pantera_rosa.ncd Pantera_rosa.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pantera_rosa.twx Pantera_rosa.ncd -o Pantera_rosa.twr Pantera_rosa.pcf -ucf ufc.ucf 

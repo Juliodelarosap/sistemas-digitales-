@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj musica_juego -o "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/mute.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/musica_juego//mute.v" -module mute -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

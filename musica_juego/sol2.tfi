@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+sol2 instance_name (
+    .clock_in(clock_in), 
+    .clock_out(clock_out)
+    );
+
+

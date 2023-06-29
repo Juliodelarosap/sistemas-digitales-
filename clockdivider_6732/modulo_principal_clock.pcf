@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Feb 22 13:28:31 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "LED" LOCATE = SITE "P15" LEVEL 1;
+COMP "dot" LOCATE = SITE "A5" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "SevenSegmentEnable<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "SevenSegmentEnable<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "SevenSegmentEnable<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "E16" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "sel<2>" LOCATE = SITE "F17" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

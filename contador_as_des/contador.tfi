@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+contador instance_name (
+    .clock(clock), 
+    .reset(reset), 
+    .activador(activador), 
+    .updown(updown), 
+    .sele(sele), 
+    .out(out), 
+    .audio(audio)
+    );
+
+

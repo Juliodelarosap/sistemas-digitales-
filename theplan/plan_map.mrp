@@ -1,0 +1,258 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'plan'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o plan_map.ncd plan.ngd plan.pcf 
+Target Device  : xa6slx9
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : aspartan6 -- $Revision: 1.55 $
+Mapped Date    : Fri Apr 21 03:43:38 2023
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    5
+Slice Logic Utilization:
+  Number of Slice Registers:                   883 out of  11,440    7%
+    Number used as Flip Flops:                 879
+    Number used as Latches:                      4
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      4,966 out of   5,720   86%
+    Number used as logic:                    4,931 out of   5,720   86%
+      Number using O6 output only:           3,913
+      Number using O5 output only:             565
+      Number using O5 and O6:                  453
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   1,440    0%
+    Number used exclusively as route-thrus:     35
+      Number with same-slice register load:      0
+      Number with same-slice carry load:        35
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,335 out of   1,430   93%
+  Number of MUXCYs used:                     1,048 out of   2,860   36%
+  Number of LUT Flip Flop pairs used:        4,966
+    Number with an unused Flip Flop:         4,089 out of   4,966   82%
+    Number with an unused LUT:                   0 out of   4,966    0%
+    Number of fully used LUT-FF pairs:         877 out of   4,966   17%
+    Number of unique control sets:              89
+    Number of slice register sites lost
+      to control set restrictions:             421 out of  11,440    3%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        43 out of     200   21%
+    Number of LOCed IOBs:                       30 out of      43   69%
+    IOB Latches:                                 1
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       3 out of      16   18%
+    Number used as BUFGs:                        3
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   1 out of     200    1%
+    Number used as OLOGIC2s:                     1
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      16    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                4.88
+
+Peak Memory Usage:  4661 MB
+Total REAL time to MAP completion:  45 secs 
+Total CPU time to MAP completion:   45 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:372 - Gated clock. Clock net musica/level2/_n0045 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net frecuence/y is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net musica/level4/_n0047 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net musica/level1/_n0046 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net musica/level3/_n0042 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network led has no load.
+INFO:MapLib:159 - Net Timing constraints on signal clock are pushed forward
+   through input buffer.
+INFO:Pack:1716 - Initializing temperature to 100.000 Celsius. (default - Range:
+   -40.000 to 100.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 43 IOs, 30 are locked
+   and 13 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| DOT                                | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| audio                              | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST | OLATCH       |          |          |
+| bas<0>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| bas<1>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| bas<2>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| blue<0>                            | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| blue<1>                            | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| clock                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| count<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<4>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<5>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<6>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<7>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<8>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<9>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| count<10>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| down                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| encendido                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| green<0>                           | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| green<1>                           | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| green<2>                           | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| hsync                              | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| inicio                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| left                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| on                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| red<0>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| red<1>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| red<2>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| reset                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| right                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| seg<0>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<1>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<2>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<3>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<4>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<5>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| seg<6>                             | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| start                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| up                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| vsync                              | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

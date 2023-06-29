@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 31 19:02:58 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "atr" LOCATE = SITE "M16" LEVEL 1;
+COMP "activador" LOCATE = SITE "F17" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "audio" LOCATE = SITE "A16" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

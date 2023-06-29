@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+bcd_to_7seg instance_name (
+    .bcd(bcd), 
+    .seg(seg)
+    );
+
+

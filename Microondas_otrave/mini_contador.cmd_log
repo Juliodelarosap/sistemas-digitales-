@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Microondas_otrave -o "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave/mini_contador.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/Microondas_otrave//mini_contador.v" -module mini_contador -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 22 19:27:50 2023
+# Process ID: 6396
+# Log file: C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/julio/OneDrive/Escritorio/sistemas digitales/dinosaurio_google_julio/pa.fromNetlist.tcl}

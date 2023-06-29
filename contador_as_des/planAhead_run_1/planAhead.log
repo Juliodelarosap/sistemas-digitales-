@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 15 17:23:49 2023
+# Process ID: 10928
+# Log file: C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/pa.fromNetlist.tcl}
+# create_project -name contador_as_des -dir "C:/Users/haili/Desktop/Sistemas digitales/contador_as_des/planAhead_run_2" -part xa6slx9csg324-3
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 403.363 ; gain = 65.293
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/haili/Desktop/Sistemas digitales/contador_as_des\planAhead_pid10928.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Mar 15 17:24:22 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead

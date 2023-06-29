@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj musica_juego -o "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/re3.tfi" -lib work "C:/Users/haili/Desktop/Sistemas digitales/musica_juego//re3.v" -module re3 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

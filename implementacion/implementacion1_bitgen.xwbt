@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\implementacion\implementacion1.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\implementacion\implementacion1.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\implementacion
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

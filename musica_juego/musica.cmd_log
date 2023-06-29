@@ -1,0 +1,158 @@
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/haili/Desktop/Sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/musica_juego/musica.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/musica_juego/musica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc salidas.ucf -p xa6slx9-csg324-3 "musica.ngc" musica.ngd  
+map -intstyle ise -p xa6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o musica_map.ncd musica.ngd musica.pcf 
+par -w -intstyle ise -ol high -mt off musica_map.ncd musica.ncd musica.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml musica.twx musica.ncd -o musica.twr musica.pcf -ucf salidas.ucf 
+bitgen -intstyle ise -f musica.ut musica.ncd 

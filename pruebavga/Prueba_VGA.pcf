@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Apr 02 23:21:14 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "blue<0>" LOCATE = SITE "B11" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "A11" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "A9" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "B9" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "C10" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "A10" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "select" LOCATE = SITE "M16" LEVEL 1;
+COMP "puerta" LOCATE = SITE "C17" LEVEL 1;
+COMP "vsync" LOCATE = SITE "A12" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+
