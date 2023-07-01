@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xc6slx9-cpg196-3 "contador_h_j.ngc" contador_h_j.ngd  
+map -intstyle ise -p xc6slx9-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_h_j_map.ncd contador_h_j.ngd contador_h_j.pcf 
+map -intstyle ise -p xc6slx9-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_h_j_map.ncd contador_h_j.ngd contador_h_j.pcf 
+vhdtdtfi -lang verilog -prj contador15 -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.tfi" -lib work "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15//contador_h_j.v" -module contador_h_j -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-3 "contador_h_j.ngc" contador_h_j.ngd  
+map -intstyle ise -p xc6slx9-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o contador_h_j_map.ncd contador_h_j.ngd contador_h_j.pcf 
+par -w -intstyle ise -ol high -mt off contador_h_j_map.ncd contador_h_j.ncd contador_h_j.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador_h_j.twx contador_h_j.ncd -o contador_h_j.twr contador_h_j.pcf 
+bitgen -intstyle ise -f contador_h_j.ut contador_h_j.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/contador_h_j.syr" 

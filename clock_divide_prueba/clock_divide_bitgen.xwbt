@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\haili\Desktop\Nueva carpeta\clock_divide_prueba\clock_divide.ncd
+OUTFILE=C:\Users\haili\Desktop\Nueva carpeta\clock_divide_prueba\clock_divide.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\haili\Desktop\Nueva carpeta\clock_divide_prueba
+LICENSE=WebPack
+USER_INFO=212637560_0_0_730

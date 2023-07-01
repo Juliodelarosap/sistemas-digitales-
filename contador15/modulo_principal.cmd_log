@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/modulo_principal.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/modulo_principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ufc.ucf -p xc6slx9-cpg196-3 "modulo_principal.ngc" modulo_principal.ngd  
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/modulo_principal.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/contador15/modulo_principal.syr" 

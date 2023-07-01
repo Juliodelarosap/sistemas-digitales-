@@ -1,0 +1,3 @@
+verilog work "tiempo.v"
+verilog work "contador_h_j.v"
+verilog work "modulo_principal.v"

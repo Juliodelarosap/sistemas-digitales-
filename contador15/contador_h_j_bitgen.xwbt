@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador15\contador_h_j.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador15\contador_h_j.bit
+FAMILY=Spartan6
+PART=xc6slx9-3cpg196
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\contador15
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

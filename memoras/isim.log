@@ -1,0 +1,24 @@
+ISim log file
+Running: C:\Users\julio\OneDrive\Escritorio\sistemas digitales\memoras\memoria_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/julio/OneDrive/Escritorio/sistemas digitales/memoras/memoria_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: File  ex1.mem.txt  referenced on C:/Users/julio/OneDrive/Escritorio/sistemas digitales/memoras/memoria.v at line 38 cannot be opened for reading. Please ensure that this file is available in the current working directory.Finished circuit initialization process.
+# isim force add /memoria/clk 0 -radix bin -value 1 -radix bin -time 1 ps -repeat 2 ps
+# isim force add /memoria/clk 0 -radix bin -value 1 -radix bin -time 1 ps -repeat 2 ps
+# run 1.00us
+# run 1.00us
+# isim force add /memoria/valor 1 -radix bin
+/memoria/valor: Array length and the input lengths are different
+
+# isim force add /memoria/valor 1 -radix bin
+/memoria/valor: Array length and the input lengths are different
+
+# run 1.00us

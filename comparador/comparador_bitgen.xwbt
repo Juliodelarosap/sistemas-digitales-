@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\comparador\comparador.ncd
+OUTFILE=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\comparador\comparador.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\Users\julio\OneDrive\Escritorio\sistemas digitales\comparador
+LICENSE=WebPack
+USER_INFO=212637559_0_0_851

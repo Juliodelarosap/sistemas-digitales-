@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+contador_h_j instance_name (
+    .clk(clk), 
+    .out(out), 
+    .rev(rev)
+    );
+
+

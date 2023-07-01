@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "comparador.ngc" comparador.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -w -intstyle ise -ol high -mt off comparador_map.ncd comparador.ncd comparador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf 
+bitgen -intstyle ise -f comparador.ut comparador.ncd 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.syr" 
+xst -intstyle ise -ifn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.xst" -ofn "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/comparador/comparador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc comparador1.ucf -p xc6slx9-csg324-2 "comparador.ngc" comparador.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -w -intstyle ise -ol high -mt off comparador_map.ncd comparador.ncd comparador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf -ucf comparador1.ucf 
+bitgen -intstyle ise -f comparador.ut comparador.ncd 

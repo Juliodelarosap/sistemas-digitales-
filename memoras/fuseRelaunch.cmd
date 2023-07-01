@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/memoras/memoria_isim_beh.exe" -prj "C:/Users/julio/OneDrive/Escritorio/sistemas digitales/memoras/memoria_beh.prj" "work.memoria" "work.glbl" 

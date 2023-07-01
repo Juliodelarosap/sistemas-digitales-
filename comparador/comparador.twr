@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr
+comparador.pcf -ucf comparador1.ucf
+
+Design file:              comparador.ncd
+Physical constraint file: comparador.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a0             |E              |   13.112|
+a0             |G              |   12.754|
+a0             |L              |   11.777|
+a1             |E              |   13.054|
+a1             |G              |   12.762|
+a1             |L              |   11.719|
+a2             |E              |   12.176|
+a2             |G              |   12.306|
+a2             |L              |   11.757|
+a3             |E              |   12.096|
+a3             |G              |   12.228|
+a3             |L              |   11.570|
+b0             |E              |   13.540|
+b0             |G              |   13.388|
+b0             |L              |   12.205|
+b1             |E              |   13.588|
+b1             |G              |   13.318|
+b1             |L              |   12.253|
+b2             |E              |   12.922|
+b2             |G              |   13.030|
+b2             |L              |   12.253|
+b3             |E              |   12.737|
+b3             |G              |   12.835|
+b3             |L              |   12.167|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jan 28 12:13:43 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+
